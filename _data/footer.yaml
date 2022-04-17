@@ -3,3 +3,15 @@ menu:
     url: /
   - title: About
     url: /about.html
+  - title: Manuals
+    url: /manuals/
+  - title: Firmware
+    url: /firmware/
+  - title: VIA
+    url: /via/
+  - title: <i class="fab fa-discord"></i>
+    url: https://discord.gg/asgKBYJUNA
+  - title: <i class="fab fa-reddit"></i>
+    url: https://www.reddit.com/r/IDOBAO/
+  - title: <i class="fab fa-github"></i>
+    url: https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao
