@@ -1,0 +1,19 @@
+menu:
+  - title: Manuals
+    url: manuals
+    fa: book
+    subfolderitems:
+    - title: Montex ID27 (20%)
+      url: /manuals/id27/
+  - title: Firmware
+    url: firmware
+    fa: microchip
+    subfolderitems:
+    - title: Montex ID27 (20%)
+      url: /firmware/id27.html
+  - title: VIA
+    url: via
+    fa: code
+    subfolderitems:
+    - title: Montex ID27 (20%)
+      url: /via/id27.html

@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-theme">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.baseurl | default: '/' | relative_url }}">
+      <svg class="d-inline-block align-text-top" height="24" width="24"><use xlink:href="#logo" />
+      {{ site.title }}
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        {%- for item in site.data.nav.menu -%}
+          {%- if item.subfolderitems[0] != null -%}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown">
+              {%- if item.fa != nil -%}
+              <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+              {%- endif -%}
+              {{ item.title }}</a>
+            <ul class="dropdown-menu">
+              {% for entry in item.subfolderitems %}
+              <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+            {%- else -%}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.url }}">
+              {%- if item.fa != nil -%}
+              <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+              {%- endif -%}
+              {{ item.title }}</a>
+          </li>
+          {%- endif -%}
+
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

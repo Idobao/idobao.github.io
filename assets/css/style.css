@@ -1,0 +1,50 @@
+:root {
+  --theme-color: #31A4D4;
+  --theme-rgb: 49, 164, 212
+}
+
+
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  body {
+    zoom: 110%;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    /* zoom: 125%; */
+  }
+}
+@media (min-width: 1400px) {
+}
+
+
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.bg-theme {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--theme-rgb), var(--bs-bg-opacity)) !important;
+}
+
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: .5rem;
+}
