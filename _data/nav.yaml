@@ -15,6 +15,8 @@ menu:
     subfolderitems:
     - title: Montex (20%)
       url: /firmware/id27.html
+    - title: Abacus ID42 (40%)
+      url: /firmware/id42.html
     - title: ID67 (65%)
       url: /firmware/id67.html
     - title: ID80 (75%)
@@ -27,9 +29,14 @@ menu:
     subfolderitems:
     - title: Montex (20%)
       url: /via/id27.html
+    - title: Abacus ID42 (40%)
+      url: /via/id42.html
     - title: ID67 (65%)
       url: /via/id67.html
     - title: ID80 (75%)
       url: /via/id80.html
     - title: ID96 (90%)
       url: /via/id96.html
+  - title: IDOBAO.net
+    url: https://idobao.net
+    fa: globe-asia
