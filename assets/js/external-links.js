@@ -1,6 +1,4 @@
-// Works like jQuery's $(document).ready.
-// Supports IE8+. Courtesy of http://youmightnotneedjquery.com/
-function ready(fn) {
+function el_ready(fn) {
   if (document.readyState != 'loading') {
     fn();
   } else if (document.addEventListener) {
@@ -13,7 +11,7 @@ function ready(fn) {
   }
 }
 
-ready(function() {
+el_ready(function() {
   var website = window.location.hostname;
 
   var internalLinkRegex = new RegExp('^(http|https)://', '');  // starts with "http://"

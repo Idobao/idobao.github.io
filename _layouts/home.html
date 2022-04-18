@@ -9,9 +9,9 @@ layout: default
 
     <div class="feature col mb-3">
       <div class="feature-icon bg-theme bg-gradient">
-        <i class="fas fa-{{ item.fa }}"></i>
+        <a href="{{ item.url }}"><i class="fas fa-{{ item.fa }}"></i></a>
       </div>
-      <h2>{{ item.title }}</h2>
+      <p class="h2">{{ item.title }}</p>
       <p>{{ item.text }}</p>
 
       <a href="{{ item.url }}" class="icon-link">

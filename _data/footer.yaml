@@ -1,17 +1,25 @@
 menu:
-  - title: Home
+  - title: <i class="fas fa-home"></i>
     url: /
-  - title: About
+    hint: Home
+  - title: <i class="fas fa-question-circle"></i>
     url: /about.html
-  - title: Manuals
+    hint: About
+  - title: <i class="fas fa-book"></i>
     url: /manuals/
-  - title: Firmware
+    hint: Manuals
+  - title: <i class="fas fa-microchip"></i>
     url: /firmware/
-  - title: VIA
+    hint: Firmware
+  - title: <i class="fas fa-code"></i>
     url: /via/
+    hint: VIA
   - title: <i class="fab fa-discord"></i>
     url: https://discord.gg/asgKBYJUNA
+    hint: Discord
   - title: <i class="fab fa-reddit"></i>
     url: https://www.reddit.com/r/IDOBAO/
+    hint: Reddit
   - title: <i class="fab fa-github-alt"></i>
     url: https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao
+    hint: Github

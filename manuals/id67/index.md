@@ -56,9 +56,9 @@ layout: manual
 
 4.  Reset:
 
-    1.  Anything abnormal of the keyboard,you can reset it.
+    1.  Anything abnormal of the keyboard, you can reset it.
 
-    2.  Press the metal button on the back of the PCBA (or press "Fn+Z"), you'll reset the keyboard to default layout, or enter QMK flashing mode.
+    2.  Press the metal button on the back of the PCB (or press "Fn+Z"), you'll reset the keyboard to default layout, or enter QMK flashing mode.
     
     3.  Unplug and re-plug the USB cable,the keyboard is workable again.
 
