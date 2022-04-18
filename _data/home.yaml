@@ -1,0 +1,13 @@
+list:
+  - title: Manuals
+    fa: book
+    text: Product and software tools manuals.
+    url: /manuals/
+  - title: Firmware
+    fa: microchip
+    text: "QMK compiled code. All variants are VIA enabled."
+    url: /firmware/
+  - title: VIA
+    fa: code
+    text: "<code>json</code> side-load files for VIA, <i>if needed</i>."
+    url: /via/

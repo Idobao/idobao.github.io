@@ -1,4 +1,6 @@
 ---
+title: Home
+layout: home
 ---
 
 # Welcome to the IDOBAO Help site
