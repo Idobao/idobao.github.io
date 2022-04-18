@@ -4,9 +4,7 @@ title: Montex PCB VIA Manuals
 
 # Montex PCB VIA Manuals
 
-<div class="border border-warning border-4 bg-warning bg-opacity-25 rounded-3 p-3 mb-3">
-  <i class="fas fa-info"></i> This text is copied directly from the IDOBAO Google Docs version without any modifications, except to fix broken links.
-</div>
+{%- include manual-warning.html -%}
 
 ## Quick Start How To Program
 
@@ -50,8 +48,4 @@ title: Montex PCB VIA Manuals
 
 ---
 
-##### See also:
-
-* [<i class="fas fa-book"></i> QMK Manual](index.html)
-* [<i class="fas fa-microchip"></i> Firmware](../../firmware/id27.html)
-* [<i class="fas fa-file-code"></i> VIA `json` Files](../../via/id27.html)
+{%- include see-also-id27.html -%}

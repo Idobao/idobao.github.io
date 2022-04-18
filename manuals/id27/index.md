@@ -4,13 +4,10 @@ title: Montex QMK Programming Manuals
 
 # Montex QMK Programming Manuals
 
-<div class="border border-warning border-4 bg-warning bg-opacity-25 rounded-3 p-3 mb-3">
-  <i class="fas fa-info"></i> This text is copied directly from the IDOBAO Google Docs version without any modifications, except to fix broken links.
-</div>
 
+{%- include manual-warning.html -%}
 
 <img src="../../assets/img/idobao-id27.png" height="250" style="display:block;margin-left:auto;margin-right:auto;">
-
 
 ## Quick Start How To Program
 
@@ -86,8 +83,4 @@ title: Montex QMK Programming Manuals
 
 ---
 
-##### See also:
-
-* [<i class="fas fa-book"></i> VIA Manual](via.html)
-* [<i class="fas fa-microchip"></i> Firmware](../../firmware/id27.html)
-* [<i class="fas fa-file-code"></i> VIA `json` Files](../../via/id27.html)
+{%- include see-also-id27.html -%}
