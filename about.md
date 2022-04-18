@@ -1,6 +1,5 @@
 ---
-title: Home
-layout: default
+title: About
 ---
 
 ## Who we are
