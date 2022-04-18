@@ -1,5 +1,6 @@
 ---
 title: Montex QMK Programming Manuals
+layout: manual
 ---
 
 # Montex QMK Programming Manuals

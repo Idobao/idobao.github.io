@@ -1,5 +1,6 @@
 ---
 title: Montex PCB VIA Manuals
+layout: manual
 ---
 
 # Montex PCB VIA Manuals

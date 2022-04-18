@@ -1,5 +1,6 @@
 ---
 title: ID80 Hot Swap PCB VIA Manuals
+layout: manual
 ---
 
 # ID80 Hot Swap PCB VIA Manuals

@@ -1,5 +1,6 @@
 ---
 title: ID80 QMK Hot Swap Programming Manuals
+layout: manual
 ---
 
 # ID80 QMK Hot Swap Programming Manuals
