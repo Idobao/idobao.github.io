@@ -53,9 +53,9 @@ title: Montex QMK Programming Manuals
 
     Long press [Fn] + [Q][E][R][T][Y][U][I][O][P]
 
-11. If some keycode is messed up, such as [LCtrl] is shown [Caps], you can just press reset eeprom and then press flash. Or get the cable off and press [Space] + [Backspace] while inserting PCB to PC.
+11. If some keycode is messed up, such as [LCtrl] is shown [Caps], you can just press reset EEPROM and then press flash. Or get the cable off and press [Space] + [Backspace] while inserting PCB to PC.
 
-12. After programming, if all keycode not work. This is mostly the issue with PC driver. Just open device manager and reset PCB, then choose atmel and uninstall it. Then connect PCB to PC again.
+12. After programming, if all keycode not work. This is mostly the issue with PC driver. Just open device manager and reset PCB, then choose Atmel and uninstall it. Then connect PCB to PC again.
 
 13. If PCB is not working before programming, please confirm the cable you use is Type A to C. It doesn't support C to C cable.
  

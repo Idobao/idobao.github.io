@@ -12,7 +12,7 @@ title: Montex PCB VIA Manuals
 
     [https://github.com/the-via/releases/releases/tag/v1.3.1](http://github.com/the-via/releases/releases/tag/v1.3.1)
 
-2.  Use Qmk toolbox to program VIA hex file onto PCB at first. VIA hex file as below.
+2.  Use QMK Toolbox to program VIA hex file onto PCB at first. VIA hex file as below.
 
     [*(Link removed)*]()
 
