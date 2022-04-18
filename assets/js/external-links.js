@@ -1,4 +1,3 @@
-// @Source: https://robwise.github.io/blog/javascript-external-links-open-new-window
 // Works like jQuery's $(document).ready.
 // Supports IE8+. Courtesy of http://youmightnotneedjquery.com/
 function ready(fn) {
@@ -15,12 +14,9 @@ function ready(fn) {
 }
 
 ready(function() {
-
   var website = window.location.hostname;
 
-  var internalLinkRegex = new RegExp('^((((http:\\/\\/|https:\\/\\/)(www\\.)?)?'
-                                     + website
-                                     + ')|(localhost:\\d{4})|(\\/.*))(\\/.*)?$', '');
+  var internalLinkRegex = new RegExp('^(http|https)://', '');  // starts with "http://"
 
   var anchorEls = document.querySelectorAll('a');
   var anchorElsLength = anchorEls.length;
@@ -29,8 +25,9 @@ ready(function() {
     var anchorEl = anchorEls[i];
     var href = anchorEl.getAttribute('href');
 
-    if (!internalLinkRegex.test(href)) {
+    if (internalLinkRegex.test(href)) {
       anchorEl.setAttribute('target', '_blank');
+      anchorEl.classList.add('external-link');
     }
   }
 });

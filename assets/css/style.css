@@ -24,33 +24,33 @@
 
 
 @media (prefers-color-scheme: dark) {
-  .manual img:not([src*=".svg"]) {
+  body.manual img:not([src*=".svg"]) {
     opacity: .75;
     filter: brightness(.8) contrast(1.2);
     transition: all .5s ease-in-out, filter .5s ease-in-out;
   }
 
-  .manual img:not([src*=".svg"]):hover {
+  body.manual img:not([src*=".svg"]):hover {
     opacity: 1;
     filter: none;
   }
 }
 
 .print-button {
-  display: none !important;
+  display: none;
 }
-.manual .print-button {
-  display: inline !important;
+body.manual .print-button {
+  display: inline;
 }
 
 
 @media print {
-  .manual img:not([src*=".svg"]) {
+  body.manual img:not([src*=".svg"]) {
     opacity: 1;
     filter: none;
   }
 
-  .manual .navbar {
+  body.manual .navbar {
     display: none !important;
   }
 
@@ -59,13 +59,13 @@
   }
 }
 
-.manual img:not([src*=".svg"]) {
+body.manual img:not([src*=".svg"]) {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.manual p {
+body.manual p {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -145,3 +145,24 @@ table td {
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.external-link:after { 
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  font-size: 50%;
+  content: "\f35d";  /* fa-external-link-alt */
+}
+@media print {
+  .external-link:after { 
+    display: none;
+  }
+}
