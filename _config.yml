@@ -21,7 +21,7 @@ email: info@idobao.net
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://idobao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-owner: IDOBAO User Group
+owner: IDOBAO
 copyright: 2022
 
 # Build settings

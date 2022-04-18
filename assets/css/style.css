@@ -36,6 +36,14 @@
   }
 }
 
+.print-button {
+  display: none !important;
+}
+.manual .print-button {
+  display: inline !important;
+}
+
+
 @media print {
   .manual img:not([src*=".svg"]) {
     opacity: 1;
@@ -44,6 +52,10 @@
 
   .manual .navbar {
     display: none !important;
+  }
+
+  hr {
+    display: none;
   }
 }
 
@@ -60,9 +72,6 @@
 
 a {
   text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 
 .container {

@@ -4,14 +4,18 @@
     <p class="col-md-4 mb-0 text-muted">
       &copy; {{ site.copyright }} {{ site.owner}}
       <span class="d-print-none">
-      &middot;
-      <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" title="Edit This Page"><i class="fas fa-edit"></i></a>
-      &middot;
-      <a href="https://github.com/Idobao/idobao.github.io/issues" title="Report An Issue"><i class="fas fa-bug"></i></a>
-    </span>
+        &middot;
+        <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" title="Edit This Page"><i class="fas fa-edit"></i></a>
+        &middot;
+        <a href="https://github.com/Idobao/idobao.github.io/issues" title="Report An Issue"><i class="fas fa-bug"></i></a>
+        <span class="print-button">
+          &middot;
+          <a href="#" onclick="window.print();return false;" title="Print This Page"><i class="fas fa-print"></i></a>
+        </span>
+      </span>
     </p>
 
-    <a href="{{ site.baseurl | default: "/" | relative_url }}" class="col-md-2 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <a href="{{ site.baseurl | default: "/" | relative_url }}" class="col-md-2 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none d-print-none">
       <svg class="bi me-2" width="32" height="32"><use xlink:href="#logo" />
     </a>
 

@@ -5,6 +5,8 @@ menu:
     subfolderitems:
     - title: Montex (20%)
       url: /manuals/id27/
+    - title: ID67 (65%)
+      url: /manuals/id67/
     - title: ID80 (75%)
       url: /manuals/id80/
   - title: Firmware
@@ -13,6 +15,8 @@ menu:
     subfolderitems:
     - title: Montex (20%)
       url: /firmware/id27.html
+    - title: ID67 (65%)
+      url: /firmware/id67.html
     - title: ID80 (75%)
       url: /firmware/id80.html
     - title: ID96 (90%)
@@ -23,6 +27,8 @@ menu:
     subfolderitems:
     - title: Montex (20%)
       url: /via/id27.html
+    - title: ID67 (65%)
+      url: /via/id67.html
     - title: ID80 (75%)
       url: /via/id80.html
     - title: ID96 (90%)
