@@ -21,12 +21,12 @@ tbls_ready(function() {
     table.classList.add('table-borderless');
     table.classList.add('align-middle');
 
-    var tableHeads = table.querySelectorAll('thead');
-    var tableHeadsLen = tableHeads.length;
+    // var tableHeads = table.querySelectorAll('thead');
+    // var tableHeadsLen = tableHeads.length;
 
-    for (var j = 0; j < tableHeadsLen; j++) {
-      var thead = tableHeads[i];
-      thead.classList.add('table-light');
-    }
+    // for (var j = 0; j < tableHeadsLen; j++) {
+    //   var thead = tableHeads[i];
+    //   thead.classList.add('table-light');
+    // }
   }
 });
