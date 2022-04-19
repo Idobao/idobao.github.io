@@ -26,6 +26,7 @@ copyright: 2022
 
 # github_raw_path: https://raw.githubusercontent.com/Idobao/idobao.github.io/master
 github_raw_path: https://cdn.jsdelivr.net/gh/Idobao/idobao.github.io
+github_qmk_path: https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao
 
 # Build settings
 markdown: kramdown

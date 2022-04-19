@@ -21,4 +21,4 @@ Be sure to read the [About](about.html) page before you do anything here.
 
 
   * [<i class="fas fa-code"></i> VIA](https://www.caniusevia.com/)'s official site
-  * [<i class="fab fa-github"></i> QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao)'s Github repository with IDOBAO firmware source
+  * [<i class="fab fa-github"></i> QMK]({{ site.github_qmk_path }})'s Github repository with IDOBAO firmware source
