@@ -47,6 +47,7 @@ layout: manual
 
     Even hotswap PCB don't need to solder as normal, however the socket is easily to be plugged loose or off after some times placing, so if you can prepare a cheap solder iron in hand, 1 hotswap PCB can use for many years. We sold many brand hotswap PCB now,these are experience from many customers.
 
+
 ---
 
 {%- include see-also-id80.html -%}

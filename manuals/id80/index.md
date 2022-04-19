@@ -7,7 +7,7 @@ layout: manual
 
 {%- include manual-warning.html -%}
 
-<img src="../../assets/img/idobao-id80.png" height="260" style="display:block;margin-left:auto;margin-right:auto;">
+<img src="../../assets/img/idobao-id80.png" height="260" class="d-print-none" style="display:block;margin-left:auto;margin-right:auto;">
 
 ## Quick Start How To Program
 
@@ -69,7 +69,8 @@ layout: manual
 
 13. If some keycode is messed up, such as [Lctrl] is shown [Caps], you can just press reset EEPROM and then flash
 
-14. After programming, all led work, but keycode not work. This is mostly the issue with PC driver. Just open device manager and reset PCB, then choose Atmel and uninstall it. Then connect PCB to PC again.
+14. After programming, all led work, but keycode not work. This is mostly the issue with PC driver. Just open device manager and reset PCB, then choose **Atmel** and uninstall it. Then connect PCB to PC again.
+
 
 ---
 

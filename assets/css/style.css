@@ -37,12 +37,11 @@
 }
 
 .manuals-only {
-  display: none !important;
+  display: none;
 }
 body.manual .manuals-only {
-  display: inline !important;
+  display: inline;
 }
-
 
 
 @media print {
@@ -69,6 +68,17 @@ body.manual img:not([src*=".svg"]) {
 body.manual p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+body.manual img[src^="image-"] {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border-radius: .5rem;  
+}
+@media print {
+  body.manual img[src^="image-"] {
+    box-shadow: none;
+    border-radius: none;  
+  }
 }
 
 a {

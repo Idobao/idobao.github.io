@@ -19,6 +19,7 @@ tbls_ready(function() {
     var table = tables[i];
     table.classList.add('table');
     table.classList.add('table-borderless');
+    table.classList.add('align-middle');
 
     var tableHeads = table.querySelectorAll('thead');
     var tableHeadsLen = tableHeads.length;

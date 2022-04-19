@@ -9,6 +9,8 @@ menu:
       url: /manuals/id67/
     - title: ID80 (75%)
       url: /manuals/id80/
+    - title: ID87 TKL (80%)
+      url: /manuals/id87/
   - title: Firmware
     url: firmware
     fa: microchip
@@ -21,6 +23,8 @@ menu:
       url: /firmware/id67.html
     - title: ID80 (75%)
       url: /firmware/id80.html
+    - title: ID87 TKL (80%)
+      url: /firmware/id87.html
     - title: ID96 (90%)
       url: /firmware/id96.html
   - title: VIA
@@ -35,6 +39,8 @@ menu:
       url: /via/id67.html
     - title: ID80 (75%)
       url: /via/id80.html
+    - title: ID87 TKL (80%)
+      url: /via/id87.html
     - title: ID96 (90%)
       url: /via/id96.html
   - title: IDOBAO.net
