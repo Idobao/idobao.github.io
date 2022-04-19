@@ -24,6 +24,9 @@ url: "http://idobao.github.io" # the base hostname & protocol for your site, e.g
 owner: IDOBAO
 copyright: 2022
 
+# github_raw_path: https://raw.githubusercontent.com/Idobao/idobao.github.io/master
+github_raw_path: https://cdn.jsdelivr.net/gh/Idobao/idobao.github.io
+
 # Build settings
 markdown: kramdown
 theme: minima
