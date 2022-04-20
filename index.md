@@ -12,10 +12,11 @@ From here you will find:
   * [<i class="fas fa-microchip"></i> Firmware](/firmware/)
   * [<i class="fas fa-code"></i> VIA](/via/) `json` files
 
-Be sure to read the [About](about.html) page before you do anything here.  
+<i class="fas fa-exclamation-triangle text-danger"></i>
+Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.  
 
 ### Other sources:
-  * [<i class="fas fa-keyboard"></i> IDOBAO](https://idobao.net) official website
+  * [<svg class="fa"><use xlink:href="#idobao"/></svg> IDOBAO](https://idobao.net) official website
   * [<i class="fab fa-discord"></i> Discord](https://discord.gg/asgKBYJUNA) *(New server)*
   * [<i class="fab fa-reddit"></i> Reddit](https://www.reddit.com/r/IDOBAO/)
 

@@ -45,4 +45,5 @@ menu:
       url: /via/id96.html
   - title: IDOBAO.net
     url: https://idobao.net
-    fa: globe-asia
+    hint: IDOBAO Official Site
+    svg: idobao

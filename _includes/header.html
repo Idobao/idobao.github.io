@@ -14,9 +14,11 @@
         {%- for item in site.data.nav.menu -%}
           {%- if item.subfolderitems[0] != null -%}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown">
+            <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
               {%- if item.fa != nil -%}
               <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+              {%- elsif item.svg != nil -%}
+              <svg class="fa"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
               {%- endif -%}
               {{ item.title }}</a>
             <ul class="dropdown-menu">
@@ -27,9 +29,11 @@
           </li>
             {%- else -%}
           <li class="nav-item">
-            <a class="nav-link" href="{{ item.url }}">
+            <a class="nav-link" href="{{ item.url }}" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
               {%- if item.fa != nil -%}
               <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+              {%- elsif item.svg != nil -%}
+              <svg class="fa"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
               {%- endif -%}
               {{ item.title }}</a>
           </li>

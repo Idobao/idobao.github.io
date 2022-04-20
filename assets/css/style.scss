@@ -1,106 +1,136 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/* ----------------------------------------------------------
+ * 
+ * Site CSS file
+ * 
+ * (c) 2022 Vino Rodrigues, https://github.com/vinorodrigues
+ * 
+ * --------------------------------------------------------*/
+
 :root {
   --theme-color: #31A4D4;
   --theme-rgb: 49, 164, 212
 }
 
 
+// ----- Font Awesome
 
-/* @media (min-width: 576px) {
+svg.fa {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  fill: currentColor;
 }
-@media (min-width: 768px) {
-} */
-@media (min-width: 992px) {
-  body {
-    zoom: 110%;
+
+// responsive media
+
+// @media (min-width: 576px) {
+// }
+// @media (min-width: 768px) {
+// }
+// @media (min-width: 992px) {
+//   body {
+//     zoom: 110%;
+//   }
+// }
+// @media (min-width: 1200px) {
+//   body {
+//     zoom: 125%;
+//   }
+// }
+// @media (min-width: 1400px) {
+// }
+
+
+// ------------------------
+// ----- manual pages -----
+// ------------------------
+
+body.manual {
+  img:not([src*=".svg"]) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  img[src^="image-"] {   // * starts with
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .5rem;
   }
 }
-@media (min-width: 1200px) {
-  body {
-    zoom: 125%;
-  }
-}
-/* @media (min-width: 1400px) {
-} */
 
+// ----- & dark mode -----
 
 @media (prefers-color-scheme: dark) {
-  body.manual img:not([src*=".svg"]) {
-    opacity: .75;
-    filter: brightness(.8) contrast(1.2);
-    transition: all .5s ease-in-out, filter .5s ease-in-out;
-  }
-
-  body.manual img:not([src*=".svg"]):hover {
-    opacity: 1;
-    filter: none;
+  body.manual {
+    img:not([src*=".svg"]) {
+      opacity: .75;
+      filter: brightness(.8) contrast(1.2);
+      transition: all .5s ease-in-out, filter .5s ease-in-out;
+   
+      &:hover {
+        opacity: 1;
+        filter: none;
+      }
+    }
   }
 }
 
 .manuals-only {
   display: none;
-}
-body.manual .manuals-only {
-  display: inline;
+
+  body.manual & {
+    display: inline;
+  }
 }
 
+// ----- printing -----
 
 @media print {
-  body.manual img:not([src*=".svg"]) {
-    opacity: 1;
-    filter: none;
-  }
+  body.manual {
+    img:not([src*=".svg"]) {
+      opacity: 1;
+      filter: none;
+    }
 
-  body.manual .navbar {
-    display: none !important;
-  }
+    img[src^="image-"] {  // * starts with 
+      box-shadow: none;
+      border-radius: none;  
+    }
 
-  hr {
-    display: none;
-  }
-}
+    .navbar {
+      display: none !important;
+    }
 
-body.manual img:not([src*=".svg"]) {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body.manual p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-body.manual img[src^="image-"] {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-  border-radius: .5rem;  
-}
-@media print {
-  body.manual img[src^="image-"] {
-    box-shadow: none;
-    border-radius: none;  
+    hr {
+      display: none;
+    }
   }
 }
+
+// ------------------------
+// ----- general html -----
+// ------------------------
 
 a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 960px;
-}
-
-.bg-theme {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--theme-rgb), var(--bs-bg-opacity)) !important;
-}
-
 table {
   width: 100%;
-}
-
-table th,
-table td {
-  padding: .5rem;
+  
+  th, td {
+    padding: .5rem;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,8 +143,34 @@ hr {
   margin-bottom: 2rem;
 }
 
+// --------------------
+// ----- bootstrap ----
+// --------------------
 
-/* Borrowed from Bootstrap */
+.container {
+  max-width: 960px;
+}
+
+// ----- added on -----
+
+.bg-theme {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--theme-rgb), var(--bs-bg-opacity)) !important;
+}
+
+// .rounded-4 { border-radius: .5rem; }
+// .rounded-5 { border-radius: 1rem; }
+
+// .text-shadow,
+// .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+// .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+// .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+// -------------------
+// ---- features -----
+// -------------------
+
+// ----- home page ---- 
 
 .bi {
   vertical-align: -.125em;
@@ -131,24 +187,26 @@ hr {
   font-size: 2rem;
   color: #fff;
   border-radius: 0.75rem;
-}
-.feature-icon a {
-  color: inherit;
+  
+  a {
+    color: inherit;
+  }
 }
 
 .icon-link {
   display: inline-flex;
   align-items: center;
-}
-.icon-link > .bi {
-  margin-top: .125rem;
-  margin-left: .125rem;
-  transition: transform .25s ease-in-out;
-  fill: currentColor;
-}
 
-.icon-link:hover > .bi {
-  transform: translate(.25rem);
+  & > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    transition: transform .25s ease-in-out;
+    // fill: currentColor;
+  }
+
+  &:hover > .bi {
+    transform: translate(.25rem);
+  }
 }
 
 .icon-square {
@@ -161,37 +219,31 @@ hr {
   border-radius: .75rem;
 }
 
-.rounded-4 { border-radius: .5rem; }
-.rounded-5 { border-radius: 1rem; }
+// ---- external links -----
 
-.text-shadow,
-.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
-.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
-.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+.external-link {
 
-.external-link:after { 
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-  margin-left: 0.5em;
-  vertical-align: middle;
-  font-size: 50%;
-  content: "\f35d";  /* fa-external-link-alt */
-}
+  &:after { 
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 0.5em;
+    vertical-align: middle;
+    font-size: 50%;
+    content: "\f35d";  // fa-external-link-alt
 
-.navbar .external-link:after,
-.nav .external-link:after { 
-  display: none;
-}
+    .navbar &, .nav & {
+      display: none;
+    }
 
-@media print {
-  .external-link:after { 
-    display: none;
+    @media print { 
+      display: none;
+    }
   }
 }
