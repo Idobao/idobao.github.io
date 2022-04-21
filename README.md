@@ -30,5 +30,6 @@ A special ***thank you*** to some awesome people who make awesome tools and reso
 * The **QMK Collaborators** for **[QMK](https://qmk.fm)**, for the firmware that our boards are built on.
 * **Olivia**, **Valdis Thomann**, & **Andrew Kannan** for **[VIA](https://caniusevia.com)**, the key-mapping tool we build our firmware to support.
 
+---
 
-Made with &#129294;
+<p align="center" style="display:block;font-size:75%;text-align:center;opacity:0.5">&copy; 2022 | Made with &#129294;</p>
