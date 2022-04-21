@@ -7,7 +7,7 @@ layout: manual
 
 {%- include manual-warning.html -%}
 
-<img src="../../assets/img/idobao-id67.png" height="200" style="display:block;margin-left:auto;margin-right:auto;" class="d-print-none">
+<img src="../../assets/img/idobao-id67.png" height="200" width="auto" style="display:block;margin-left:auto;margin-right:auto;" class="d-print-none">
 
 1.  Introduction
 

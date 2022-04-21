@@ -6,12 +6,12 @@ title: VIA
 
 | Keyboard               |                                                       | VIA Support                                                |
 |-----------------------:|:-----------------------------------------------------:|:-----------------------------------------------------------|
-| Idobao Montex *(ID27)* | <img src="../assets/img/idobao-id27.png" height="50"> | *(Native)* [<i class="fas fa-info-circle"></i>](id27.html) |
-| Idobao Abacus ID42     | <img src="../assets/img/idobao-id42.png" height="34"> | [Abacus ID42 VIA](id42.html)                               |
-| Idobao ID67            | <img src="../assets/img/idobao-id67.png" height="40"> | *(Native)* [*(more...)*](id67.html)                                      |
-| Idobao ID80            | <img src="../assets/img/idobao-id80.png" height="52"> | *(Native)* [<i class="fas fa-info-circle"></i>](id80.html) |
-| Idobao ID87 *(TKL)*    | <img src="../assets/img/idobao-id87.png" height="50"> | *(Native)* [<i class="fas fa-info-circle"></i>](id87.html) |
-| Idobao ID96            | <img src="../assets/img/idobao-id96.png" height="48"> | *(Native)* [<i class="fas fa-info-circle"></i>](id96.html) |
+| Idobao Montex *(ID27)* | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id27.html) |
+| Idobao Abacus ID42     | <img src="../assets/img/idobao-id42.png" height="34" width="auto"> | [Abacus ID42 VIA](id42.html)                               |
+| Idobao ID67            | <img src="../assets/img/idobao-id67.png" height="40" width="auto"> | *(Native)* [*(more...)*](id67.html)                                      |
+| Idobao ID80            | <img src="../assets/img/idobao-id80.png" height="52" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id80.html) |
+| Idobao ID87 *(TKL)*    | <img src="../assets/img/idobao-id87.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id87.html) |
+| Idobao ID96            | <img src="../assets/img/idobao-id96.png" height="48" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id96.html) |
 
 -----
 

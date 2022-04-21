@@ -8,7 +8,7 @@ layout: manual
 
 {%- include manual-warning.html -%}
 
-<img src="../../assets/img/idobao-id27.png" height="250" class="d-print-none" style="display:block;margin-left:auto;margin-right:auto;">
+<img src="../../assets/img/idobao-id27.png" height="250" width="auto" class="d-print-none" style="display:block;margin-left:auto;margin-right:auto;">
 
 ## Quick Start How To Program
 
