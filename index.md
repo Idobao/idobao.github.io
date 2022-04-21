@@ -21,5 +21,5 @@ Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) p
   * [<i class="fab fa-reddit"></i> Reddit](https://www.reddit.com/r/IDOBAO/)
 
 
-  * [<i class="fas fa-code"></i> VIA](https://www.caniusevia.com/)'s official site
   * [<i class="fab fa-github"></i> QMK]({{ site.github_qmk_path }})'s Github repository with IDOBAO firmware source
+  * [<i class="fas fa-code"></i> VIA](https://www.caniusevia.com/)'s official site

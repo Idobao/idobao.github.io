@@ -26,33 +26,34 @@ layout: manual
 
 3.  Fn+key Functions
 
-    |:---:|:---:|:---:|-----------------------------------|
-    |     |     | 1-+ | F1-F12                            |
-    |     |     |  W  | ↑                                 |
-    |     |     |  A  | ←                                 |
-    |     |     |  S  | ↓                                 |
-    |     |     |  D  | →                                 |
-    |     |     |  Q  | RGB Toggle                        |
-    |     |     |  E  | RGB Mode                          |
-    |     |     |  R  | RGB HUI (RGB hue increase)        |
-    |     |     |  T  | RGB HUD (RGB hue decrease)        |
-    |     |     |  Y  | RGB SAI (RGB saturation increase) |
-    |     |     |  U  | RGB SAD (RGB saturation decrease) |
-    |     |     |  I  | RGB VAI (RGB brightness increase) |
-    | Fn  |  +  |  O  | RGB VAD (RGB brightness decrease) |
-    |     |     |  {[ | PrtSC                             |
-    |     |     |  }] | ScrLK                             |
-    |     |     |  &#124;\ | Pause/Break                  |
-    |     |     |  L  | Insert                            |
-    |     |     |  :; | Home                              |
-    |     |     |  "' | PgUp                              |
-    |     |     |  <, | Delete                            |
-    |     |     |  >. | End                               |
-    |     |     |  ?/ | PgDn                              |
-    |     |     |  B  | Vol-                              |
-    |     |     |  N  | Mute                              |
-    |     |     |  M  | Vol+                              |
-    |     |     |  Z  | Reset or enter QMK reflash mode   |
+    |:---:|:---:|:---:|:------------------------------------|
+    |  Fn |  +  | Esc | ~ *(Tilde)*                         |
+    |     |     | 1-+ | F1-F12                              |
+    |     |     |  W  | ↑                                   |
+    |     |     |  A  | ←                                   |
+    |     |     |  S  | ↓                                   |
+    |     |     |  D  | →                                   |
+    |     |     |  Q  | RGB Toggle                          |
+    |     |     |  E  | RGB Mode                            |
+    |     |     |  R  | RGB HUI *(RGB hue increase)*        |
+    |     |     |  T  | RGB HUD *(RGB hue decrease)*        |
+    |     |     |  Y  | RGB SAI *(RGB saturation increase)* |
+    |     |     |  U  | RGB SAD *(RGB saturation decrease)* |
+    |     |     |  I  | RGB VAI *(RGB brightness increase)* |
+    |     |     |  O  | RGB VAD *(RGB brightness decrease)* |
+    |     |     |  {[ | PrtSC                               |
+    |     |     |  }] | ScrLK                               |
+    |     |     |  &#124;\ | Pause/Break                    |
+    |     |     |  L  | Insert                              |
+    |     |     |  :; | Home                                |
+    |     |     |  "' | PgUp                                |
+    |     |     |  <, | Delete                              |
+    |     |     |  >. | End                                 |
+    |     |     |  ?/ | PgDn                                |
+    |     |     |  B  | Vol-                                |
+    |     |     |  N  | Mute                                |
+    |     |     |  M  | Vol+                                |
+    |     |     |  Z  | Reset or enter QMK reflash mode     |
 
 4.  Reset:
 
