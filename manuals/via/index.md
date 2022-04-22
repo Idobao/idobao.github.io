@@ -12,3 +12,4 @@ layout: manual
 ---
 
 {%- include see-also-manuals-general.html -%}
+{%- include vid-print-links.html -%}

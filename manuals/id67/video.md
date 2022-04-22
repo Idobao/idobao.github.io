@@ -11,3 +11,4 @@ title: ID67 crystal assembled
 ---
 
 {%- include see-also-id67.html -%}
+{%- include vid-print-links.html -%}

@@ -16,3 +16,4 @@ The [QMK Configurator](http://config.qmk.fm) will allow you to build firmware fo
 ---
 
 {%- include see-also-manuals-general.html -%}
+{%- include vid-print-links.html -%}
