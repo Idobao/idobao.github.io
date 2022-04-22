@@ -21,7 +21,7 @@ If you have a keyboard drived by Atmega32u4 of QMK, you can edit the keyboard by
 
     [https://caniusevia.com/docs/download_firmware](https://caniusevia.com/docs/download_firmware)
 
-    <img src="image-2.jpg" width="640" style="max-width: 100%;">
+    <img src="image-2.jpg" width="640" height="auto" style="max-width: 100%;">
  
 4.  Open qmk_toolbox
 
@@ -39,11 +39,11 @@ If you have a keyboard drived by Atmega32u4 of QMK, you can edit the keyboard by
         
         Means the keyboard is ready to use
 
-        <img src="image-3.jpg" width="640" style="max-width: 100%;">
+        <img src="image-3.jpg" width="640" height="auto" style="max-width: 100%;">
 
 5.  Open software VIA, you are on windows of "KEYMAP", "BASIC"
 
-    <img src="image-4.jpg" width="640" style="max-width: 100%;">
+    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;">
  
     Now (if) you want to edit D (on KEYMAP-CONFIGURE-LAYER0) to 5
 

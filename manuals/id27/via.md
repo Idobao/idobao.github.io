@@ -21,13 +21,13 @@ layout: manual
 
 3.  Double Click `VIA.EXE` to open it
  
-    <img src="image-4.jpg" width="640" style="max-width: 100%;">
+    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;">
 
 4.  Click Import keymap and select `idobao_montex_via.json` file, and then enter the editing interface
 
     LINK: [*(Link removed)*]()
 
-    <img src="image-5.jpg" width="640" style="max-width: 100%;">    
+    <img src="image-5.jpg" width="640" height="auto" style="max-width: 100%;">    
 
 6.  More details about keycode, refer to [Keycodes](https://docs.qmk.fm/#/keycodes).
 

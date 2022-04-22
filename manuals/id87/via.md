@@ -17,7 +17,7 @@ layout: manual
 
 3.  Double Click `VIA.EXE` to open it
 
-    <img src="image-6.jpg" width="640" style="max-width: 100%;">
+    <img src="image-6.jpg" width="640" height="auto" style="max-width: 100%;">
 
 4.  Then it will come out Keymap page. You can just choose Layer and keycode on VIA directly. No need to reserve, it will modify onto PCB directly. For ISO layout, there is no special file yet. Just reverse [Enter] & [\|] keycode is ok.
 

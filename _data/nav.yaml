@@ -5,10 +5,16 @@ menu:
     subfolderitems:
     - title: Flashing Guide
       url: /manuals/flashing/
+      fa: bolt
     - title: QMK Config
       url: /manuals/qmk/
+      fa: microchip
     - title: Using VIA
       url: /manuals/via/
+      fa: code
+    - title: Keyboard LED's
+      url: /manuals/leds.html
+      fa: lightbulb
     - title: --
     - title: Montex
       url: /manuals/id27/

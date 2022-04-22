@@ -62,4 +62,12 @@ layout: manual
 
 ---
 
+#### Summary
+
+<img src="image-1.jpg" width="640" height="auto" style="max-width: 100%;">
+
+<img src="image-2.jpg" style="max-width: 100%;">
+
+---
+
 {%- include see-also-manuals-general.html -%}
