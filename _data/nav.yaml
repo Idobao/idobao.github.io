@@ -1,8 +1,15 @@
 menu:
   - title: Manuals
-    url: manuals
+    url: /manuals
     fa: book
     subfolderitems:
+    - title: Flashing Guide
+      url: /manuals/flashing/
+    - title: QMK Config
+      url: /manuals/qmk/
+    - title: Using VIA
+      url: /manuals/via/
+    - title: --
     - title: Montex
       url: /manuals/id27/
     - title: ID67
@@ -12,7 +19,7 @@ menu:
     - title: ID87 TKL
       url: /manuals/id87/
   - title: Firmware
-    url: firmware
+    url: /firmware
     fa: microchip
     subfolderitems:
     - title: Montex
@@ -28,7 +35,7 @@ menu:
     - title: ID96
       url: /firmware/id96.html
   - title: VIA
-    url: via
+    url: /via
     fa: code
     subfolderitems:
     - title: Montex

@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-theme d-print-none">
   <div class="container">
     <a class="navbar-brand" href="{{ site.baseurl | default: '/' | relative_url }}">
-      <svg class="d-inline-block align-text-top" height="24" width="24"><use xlink:href="#logo" /></svg>
+      <svg class="d-inline-block align-text-top" height="24" width="24"><use xlink:href="#site-logo"/></svg>
       {{ site.title }}
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,14 +16,18 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
               {%- if item.fa != nil -%}
-              <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+                <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
               {%- elsif item.svg != nil -%}
-              <svg class="fa"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
+                <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
               {%- endif -%}
               {{ item.title }}</a>
             <ul class="dropdown-menu">
               {% for entry in item.subfolderitems %}
-              <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a></li>
+                {% if entry.title == "--" %}
+                  <li><hr class="dropdown-divider"></li>
+                {% else %}
+                  <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </li>
@@ -31,9 +35,9 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ item.url }}" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
               {%- if item.fa != nil -%}
-              <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+                <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
               {%- elsif item.svg != nil -%}
-              <svg class="fa"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
+                <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
               {%- endif -%}
               {{ item.title }}</a>
           </li>
