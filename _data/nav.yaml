@@ -3,47 +3,47 @@ menu:
     url: manuals
     fa: book
     subfolderitems:
-    - title: Montex (20%)
+    - title: Montex
       url: /manuals/id27/
-    - title: ID67 (65%)
+    - title: ID67
       url: /manuals/id67/
-    - title: ID80 (75%)
+    - title: ID80
       url: /manuals/id80/
-    - title: ID87 TKL (80%)
+    - title: ID87 TKL
       url: /manuals/id87/
   - title: Firmware
     url: firmware
     fa: microchip
     subfolderitems:
-    - title: Montex (20%)
+    - title: Montex
       url: /firmware/id27.html
-    - title: Abacus ID42 (40%)
+    - title: Abacus ID42
       url: /firmware/id42.html
-    - title: ID67 (65%)
+    - title: ID67
       url: /firmware/id67.html
-    - title: ID80 (75%)
+    - title: ID80
       url: /firmware/id80.html
-    - title: ID87 TKL (80%)
+    - title: ID87 TKL
       url: /firmware/id87.html
-    - title: ID96 (90%)
+    - title: ID96
       url: /firmware/id96.html
   - title: VIA
     url: via
     fa: code
     subfolderitems:
-    - title: Montex (20%)
+    - title: Montex
       url: /via/id27.html
-    - title: Abacus ID42 (40%)
+    - title: Abacus ID42
       url: /via/id42.html
-    - title: ID67 (65%)
+    - title: ID67
       url: /via/id67.html
-    - title: ID80 (75%)
+    - title: ID80
       url: /via/id80.html
-    - title: ID87 TKL (80%)
+    - title: ID87 TKL
       url: /via/id87.html
-    - title: ID96 (90%)
+    - title: ID96
       url: /via/id96.html
   - title: IDOBAO.net
     url: https://idobao.net
     hint: IDOBAO Official Site
-    svg: idobao
+    svg: idobao-logo
