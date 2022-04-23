@@ -2,26 +2,27 @@
 layout: default
 ---
 
-<div class="container px-4">
+<!-- HERO -->
+<div class="px-4">
   <div class="row py-5 row-cols-1 row-cols-lg-3">
 
     {%- for item in site.data.home.list -%}
 
-    <div class="feature col mb-3">
-      <div class="feature-icon bg-theme bg-gradient">
-        <a href="{{ item.url }}"><i class="fas fa-{{ item.fa }}"></i></a>
-      </div>
-      <p class="h2">{{ item.title }}</p>
-      <p>{{ item.text }}</p>
+      <div class="feature col mb-3">
+        <div class="feature-icon bg-theme bg-gradient">
+          <a href="{{ item.url }}"><i class="fas fa-{{ item.fa }}"></i></a>
+        </div>
+        <p class="h2">{{ item.title }}</p>
+        <p>{{ item.text }}</p>
 
-      <a href="{{ item.url }}" class="icon-link">
-        {{ item.title }}
-        <i class="fas fa-chevron-right bi"></i>
-      </a>      
-    </div>
+        <a href="{{ item.url }}" class="icon-link">
+          {{ item.title }}
+          <i class="fas fa-chevron-right bi"></i>
+        </a>      
+      </div>
     
-    {%- endfor -%}
-   
+    {% endfor -%}
+
   </div>
 </div>
 

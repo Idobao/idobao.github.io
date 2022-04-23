@@ -4,7 +4,7 @@ title: Firmware
 
 # Firmware
 
-{%- include firmware-header.html -%}
+{% include firmware-header.html %}
 
 <hr>
 

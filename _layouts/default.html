@@ -1,19 +1,18 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!-- Source: {{ page.path }} -->
+{% include head.html %}
+<body class="page-{{- page.layout -}}">
 
-  {%- include head.html -%}
+{% include sprites.html %}
+{% include header.html %}
 
-  <body>
-
-    {%- include sprites.html -%}
-    {%- include header.html -%}
-
-    <div class="container my-3">
-        {{ content }}
-    </div>
+<div class="container my-3">
+  {{ content }}
+</div>
   
-    {%- include footer.html -%}
+{% include footer.html %}
+{% include foot.html %}
 
-    {%- include foot.html -%}
-  </body>
+</body>
 </html>

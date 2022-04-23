@@ -1,6 +1,7 @@
 ---
 title: Enabling VIA on your keyboard
 layout: manual
+has_video: true
 ---
 
 # Enabling VIA on your keyboard
@@ -11,5 +12,4 @@ layout: manual
 
 ---
 
-{%- include see-also-manuals-general.html -%}
-{%- include vid-print-links.html -%}
+{% include see-also-manuals-general.html %}

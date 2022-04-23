@@ -1,20 +1,23 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!-- Source: {{ page.path }} -->
+{% include head.html %}
 
-  {%- include head.html -%}
+<body class="manual page-{{- page.layout -}} {%- if page.has_video -%}{{- " " -}} page-video {%- endif -%}">
 
-  <body class="manual">
+{% include sprites.html %}
+{% include header.html %}
 
-    {%- include sprites.html -%}
-    {%- include header.html -%}
-
-    <div class="container my-3">
-        {{ content }}
-    </div>
+<div class="container my-3">
+  {{ content }}
+</div>
   
-    {%- include footer.html -%}
+{% include footer.html %}
 
-    {%- include foot.html -%}
-    <script src="/assets/js/external-links.js"></script>
-  </body>
+{% include foot.html %}
+<script src="/assets/js/external-links.js"></script>
+{% if page.has_video -%}
+  <script src="/assets/js/vid-print-links.js"></script>
+{%- endif %}
+</body>
 </html>

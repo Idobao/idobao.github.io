@@ -5,7 +5,7 @@ layout: manual
 
 # ID80 QMK Hot Swap Programming Manuals
 
-{%- include manual-warning.html -%}
+{% include manual-warning.html %}
 
 <img src="../../assets/img/idobao-id80.png" height="260" width="auto" class="d-print-none" style="display:block;margin-left:auto;margin-right:auto;">
 
@@ -74,4 +74,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id80.html -%}
+{% include see-also-id80.html %}

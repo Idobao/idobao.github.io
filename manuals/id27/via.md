@@ -5,7 +5,7 @@ layout: manual
 
 # Montex PCB VIA Manuals
 
-{%- include manual-warning.html -%}
+{% include manual-warning.html %}
 
 ## Quick Start How To Program
 
@@ -49,4 +49,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id27.html -%}
+{% include see-also-id27.html %}

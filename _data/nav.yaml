@@ -14,7 +14,7 @@ menu:
       fa: code
     - title: Keyboard LED's
       url: /manuals/leds/
-      fa: lightbulb
+      fa: sun
     - title: --
     - title: Montex
       url: /manuals/id27/

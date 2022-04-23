@@ -5,7 +5,7 @@ layout: manual
 
 # ID87 Hotswap QMK Programming Manuals
 
-{%- include manual-warning.html -%}
+{% include manual-warning.html %}
 
 <img src="../../assets/img/idobao-id87.png" height="250" width="auto" class="d-print-none" style="display:block;margin-left:auto;margin-right:auto;">
 
@@ -88,4 +88,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id87.html -%}
+{% include see-also-id87.html %}

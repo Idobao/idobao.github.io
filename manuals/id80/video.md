@@ -1,5 +1,6 @@
 ---
 title: ID80 crystal installation details
+has_video: true
 ---
 
 # ID80 crystal installation details
@@ -10,5 +11,4 @@ title: ID80 crystal installation details
 
 ---
 
-{%- include see-also-id80.html -%}
-{%- include vid-print-links.html -%}
+{% include see-also-id80.html %}

@@ -13,41 +13,41 @@
 
         {%- for item in site.data.nav.menu -%}
           {%- if item.subfolderitems[0] != null -%}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
-              {%- if item.fa != nil -%}
-                <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
-              {%- elsif item.svg != nil -%}
-                <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
-              {%- endif -%}
-              {{ item.title }}</a>
-            <ul class="dropdown-menu">
-              {% for sub_item in item.subfolderitems %}
-                {% if sub_item.title == "--" %}
-                  <li><hr class="dropdown-divider"></li>
-                {% else %}
-                  <li><a class="dropdown-item" href="{{ sub_item.url }}">
-                    {%- if sub_item.fa != nil -%}
-                      <i class="fas fa-fw fa-{{ sub_item.fa }}"></i>{{ " " }}
-                    {%- endif -%}
-                    {{ sub_item.title }}</a>
-                  </li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
-            {%- else -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ item.url }}" {%- if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
-              {%- if item.fa != nil -%}
-                <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
-              {%- elsif item.svg != nil -%}
-                <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg>{{ " " }}
-              {%- endif -%}
-              {{ item.title }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil %} title="{{ item.hint }}" {%- endif -%} >
+                {%- if item.fa != nil -%}
+                  <i class="fas fa-{{ item.fa }}"></i> {{- " " -}}
+                {%- elsif item.svg != nil -%}
+                  <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg> {{- " " -}}
+                {%- endif -%}
+                {{- item.title -}}</a>
+              <ul class="dropdown-menu">
+                {%- for sub_item in item.subfolderitems -%}
+                  {%- if sub_item.title == "--" -%}
+                    <li><hr class="dropdown-divider"></li>
+                  {%- else -%}
+                    <li><a class="dropdown-item" href="{{ sub_item.url }}">
+                      {%- if sub_item.fa != nil -%}
+                        <i class="fas fa-fw fa-{{ sub_item.fa }}"></i> {{- " " -}}
+                      {%- endif -%}
+                      {{- sub_item.title -}}</a> {{- -}}
+                    </li>
+                  {% endif -%}
+                {%- endfor -%}
+              </ul>
+            </li>
+          {%- else -%}
+            <li class="nav-item"> {{- -}}
+              <a class="nav-link" href="{{ item.url }}" {% if item.hint != nil -%} title="{{ item.hint }}" {%- endif -%} >
+                {%- if item.fa != nil -%}
+                  <i class="fas fa-{{ item.fa }}"></i>{{ " " }}
+                {%- elsif item.svg != nil -%}
+                  <svg class="fa fa-fw"><use xlink:href="#{{ item.svg }}"/></svg> {{- " " -}}
+                {%- endif -%}
+                {{- item.title -}}</a> {{- -}}
+            </li>
+          {% endif -%}
+        {%- endfor -%}
 
       </ul>
     </div>

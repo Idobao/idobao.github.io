@@ -5,7 +5,7 @@ layout: manual
 
 # ID67 Manual
 
-{%- include manual-warning.html -%}
+{% include manual-warning.html %}
 
 <img src="../../assets/img/idobao-id67.png" height="200" width="auto" style="display:block;margin-left:auto;margin-right:auto;" class="d-print-none">
 
@@ -66,4 +66,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id67.html -%}
+{% include see-also-id67.html %}

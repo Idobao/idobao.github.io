@@ -1,5 +1,6 @@
 ---
 title: ID67 crystal assembled
+has_video: true
 ---
 
 # ID67 crystal assembled
@@ -10,5 +11,4 @@ title: ID67 crystal assembled
 
 ---
 
-{%- include see-also-id67.html -%}
-{%- include vid-print-links.html -%}
+{% include see-also-id67.html %}

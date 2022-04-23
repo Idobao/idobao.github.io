@@ -13,9 +13,9 @@
     </a>
 
     <ul class="nav col-md-5 justify-content-end d-print-none">
-      {%- for item in site.data.footer.menu -%}
-      <li class="nav-item"><a href="{{ item.url }}" class="nav-link px-2 text-muted" title="{{ item.hint }}">{{ item.title }}</a></li>
-      {% endfor %}
+      {% for item in site.data.footer.menu -%}
+        <li class="nav-item"><a href="{{ item.url }}" class="nav-link px-2 text-muted" title="{{ item.hint }}">{{ item.title }}</a></li>
+      {% endfor -%}
     </ul>
   </footer>
 </div>

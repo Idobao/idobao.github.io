@@ -5,7 +5,7 @@ layout: manual
 
 # ID80 Hot Swap PCB VIA Manuals
 
-{%- include manual-warning.html -%}
+{% include manual-warning.html %}
 
 ## Quick Start How To Program
 
@@ -50,4 +50,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id80.html -%}
+{% include see-also-id80.html %}

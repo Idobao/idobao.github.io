@@ -44,4 +44,4 @@ layout: manual
 
 ---
 
-{%- include see-also-id87.html -%}
+{% include see-also-id87.html %}
