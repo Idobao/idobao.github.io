@@ -13,7 +13,7 @@ menu:
       url: /manuals/via/
       fa: code
     - title: Keyboard LED's
-      url: /manuals/leds.html
+      url: /manuals/leds/
       fa: lightbulb
     - title: --
     - title: Montex
