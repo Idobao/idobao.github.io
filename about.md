@@ -2,6 +2,8 @@
 title: About
 ---
 
+<img src="/assets/img/idobao-full-logo.svg" height="128" width="auto" class="d-block mx-auto" style="max-width:100%" />
+
 ## Who we are
 
 This Site is created by a loving community of developers who own, use, and love their IDOBAO keyboards.
