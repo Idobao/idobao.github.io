@@ -14,7 +14,7 @@
         {%- for item in site.data.nav.menu -%}
           {%- if item.subfolderitems[0] != null -%}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil %} title="{{ item.hint }}" {%- endif -%} >
+              <a class="nav-link dropdown-toggle" href="{{ item.url }}" ondblclick="navTo(this);" role="button" data-bs-toggle="dropdown" {%- if item.hint != nil %} title="{{ item.hint }}" {%- endif -%} >
                 {%- if item.fa != nil -%}
                   <i class="fas fa-{{ item.fa }}"></i> {{- " " -}}
                 {%- elsif item.svg != nil -%}
