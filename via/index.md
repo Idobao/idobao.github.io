@@ -11,7 +11,7 @@ title: VIA
 | Idobao ID75 *(Ortholinear)* | <img src="../assets/img/idobao-id75.png" height="40" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id75.html) |
 | Idobao ID67 | <img src="../assets/img/idobao-id67.png" height="40" width="auto"> | *(Native)* [<i class="fas fa-comment-dots" title="more..."></i>](id67.html) |
 | Idobao ID80 | <img src="../assets/img/idobao-id80.png" height="52" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id80.html) |
-| Idobao ID87 *(TKL)* | <img src="../assets/img/idobao-id87.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id87.html) |
+| Idobao ID87 *(TKL)* | <img src="../assets/img/idobao-id87.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-comment-dots" title="more..."></i>](id87.html) |
 | Idobao ID96 | <img src="../assets/img/idobao-id96.png" height="48" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id96.html) |
 
 -----
