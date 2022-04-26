@@ -32,6 +32,8 @@ menu:
       url: /firmware/id27.html
     - title: Abacus ID42
       url: /firmware/id42.html
+    - title: ID75
+      url: /firmware/id75.html
     - title: ID67
       url: /firmware/id67.html
     - title: ID80
@@ -48,6 +50,8 @@ menu:
       url: /via/id27.html
     - title: Abacus ID42
       url: /via/id42.html
+    - title: ID75
+      url: /via/id75.html
     - title: ID67
       url: /via/id67.html
     - title: ID80
