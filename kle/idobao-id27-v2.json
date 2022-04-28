@@ -1,0 +1,96 @@
+[
+  {
+    "name": "IDOBAO Montex ID27 (for Docs)",
+    "author": "Vino Rodrigues",
+    "radii": "16px"
+  },
+  [
+    {
+      "c": "#aaaaaa",
+      "t": "#000000\n\n\n#ff0000",
+      "fa": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "Esc\n~\n\nReset",
+    "Tab\n\n\nRGB Tog",
+    "F1\n\n\nRGB Mode",
+    "Calc\n\n\nPrintScr",
+    "Bkspc\n\n\nErase"
+  ],
+  [
+    {
+      "y": 0.5,
+      "c": "#cccccc"
+    },
+    "Ctrl\n\n\nHue+",
+    {
+      "t": "#000000"
+    },
+    "NmLk",
+    {
+      "t": "#000000\n\n\n#ff0000"
+    },
+    "/\n\n\nSpeed -",
+    "*\n\n\nSpeed+",
+    "-\n\n\nBright-"
+  ],
+  [
+    "Win\n\n\nHue-",
+    "7\n\n\nHome",
+    "8\n\n\n&#8679;",
+    "9\n\n\nPgUp",
+    {
+      "h": 2
+    },
+    "+\n\n\nBright+"
+  ],
+  [
+    "Alt\n\n\nSat+",
+    "4\n\n\n&#8678;",
+    {
+      "t": "#000000"
+    },
+    "5",
+    {
+      "t": "#000000\n\n\n#ff0000"
+    },
+    "6\n\n\n&#8680;"
+  ],
+  [
+    "Shift\n\n\nSat-",
+    "1\n\n\nEnd",
+    "2\n\n\n&#8681;",
+    "3\n\n\nPgDn",
+    {
+      "h": 2
+    },
+    "Ent\n\n\n&#8629;"
+  ],
+  [
+    {
+      "c": "#eecccc",
+      "t": "#ff0000",
+      "fa": [
+        4
+      ]
+    },
+    "Fn",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n\n#ff0000",
+      "fa": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "w": 2
+    },
+    "0\n\n\nIns",
+    ".\n\n\nDel"
+  ]
+]
