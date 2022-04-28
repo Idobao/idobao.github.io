@@ -4,26 +4,29 @@ title: VIA
 
 # VIA Support
 
-There are currently two open-source applications that support QMK's VIA implementation. *(Both work, so it's a personal choice.)*
+There are currently two open-source applications that support QMK's VIA implementation. 
+
+*Both work, so it's a personal choice.  Both run on <i class="fab fa-2x fa-windows"></i> , <i class="fab fa-2x fa-apple"></i> or <i class="fab fa-2x fa-linux"></i>*
 
 Be sure to check back with their sites to make sure you have the latest builds.
 
+
 <div class="row">
   <div class="col-md-6">
-    <div class="card text-center mb-3 border-2 rounded">
+    <div class="card text-center mb-3 border-2 rounded shadow">
       <img src="/assets/img/caniusevia.svg" width="300" height="88" class="card-img-top" style="background-color:#AD7070">
       <div class="card-body">
-        <h5 class="card-title">VIA</h5>
+        <h5 class="card-title text-shadow">VIA</h5>
         <p class="card-text">The original app.</p>
         <a href="https://www.caniusevia.com/" class="btn btn-success">caniusevia.com</a>
       </div>
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card text-center mb-3 border-2 rounded">
+    <div class="card text-center mb-3 border-2 rounded shadow">
       <img src="/assets/img/getvialtoday.svg" width="300" height="88" class="card-img-top" style="background-color:#023E8A">
       <div class="card-body">
-        <h5 class="card-title">Vial</h5>
+        <h5 class="card-title text-shadow">Vial</h5>
         <p class="card-text">The newer app.</p>
         <a href="https://get.vial.today/" class="btn btn-primary">get.vial.today</a>
       </div>

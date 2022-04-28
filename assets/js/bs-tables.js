@@ -18,16 +18,18 @@ tbls_ready(function() {
   for (var i = 0; i < tablesLength; i++) {
     var table = tables[i];
     table.classList.add('table');
-    table.classList.add('table-borderless');
+    // table.classList.add('table-borderless');
     table.classList.add('table-striped');
+    // table.classList.add('table-hover');
     table.classList.add('align-middle');
+    table.classList.add('border');
 
     // var tableHeads = table.querySelectorAll('thead');
     // var tableHeadsLen = tableHeads.length;
 
     // for (var j = 0; j < tableHeadsLen; j++) {
     //   var thead = tableHeads[i];
-    //   thead.classList.add('table-light');
+    //   thead.classList.add('');
     // }
   }
 });
