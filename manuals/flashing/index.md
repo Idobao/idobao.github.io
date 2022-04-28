@@ -8,12 +8,11 @@ has_video: true
 
 1.  **Learn how**
 
-    <div class="ratio ratio-16x9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VR53Wo9Z960" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
+    {%- include youtube-video.html video="VR53Wo9Z960" -%}
+  
     &nbsp;
 
+{:start="2"}
 2.  **Testing**
 
     Test your PCB to make sure all the switches / Kaihl sockets work.

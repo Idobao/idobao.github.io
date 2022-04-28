@@ -269,36 +269,12 @@ hr {
 
 @media print {
 
-  // reset Bootstrap
-  .ratio>* {
-    position: initial;
-    top: auto;
-    left: auto;
-    width: auto;
-    height: auto;
-  }
-  .ratio::before {
-    display: inherit;
-    padding-top: inherit;
-  }
-
-  iframe {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-
   .external-link {
     &::after{
       content: " { " attr(href) " } ";
     }
   }
 
-  .video-link {
-    &::after{
-      content: "" !important;
-    }
-  }
 }
 
 
