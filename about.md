@@ -6,7 +6,7 @@ title: About
 
 ## Who we are
 
-This Site is created by a loving community of developers who own, use, and love their IDOBAO keyboards.
+This Site is created by a loving community of developers and enthusiasts who own, use, and love their IDOBAO mechanical keyboards.
 
 All items in this Site are offered because they are useful to that community, and offered publicly in the hopes that those resources are helpful to others.
 
