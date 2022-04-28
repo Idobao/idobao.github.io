@@ -4,7 +4,32 @@ title: VIA
 
 # VIA Support
 
-<div class="d-block text-center"><img src="/assets/img/caniusevia.svg" width="300" height="88"></div>
+There are currently two open-source applications that support QMK's VIA implementation. *(Both work, so it's a personal choice.)*
+
+Be sure to check back with their sites to make sure you have the latest builds.
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card text-center mb-3 border-2 rounded">
+      <img src="/assets/img/caniusevia.svg" width="300" height="88" class="card-img-top" style="background-color:#AD7070">
+      <div class="card-body">
+        <h5 class="card-title">VIA</h5>
+        <p class="card-text">The original app.</p>
+        <a href="https://www.caniusevia.com/" class="btn btn-success">caniusevia.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card text-center mb-3 border-2 rounded">
+      <img src="/assets/img/getvialtoday.svg" width="300" height="88" class="card-img-top" style="background-color:#023E8A">
+      <div class="card-body">
+        <h5 class="card-title">Vial</h5>
+        <p class="card-text">The newer app.</p>
+        <a href="https://get.vial.today/" class="btn btn-primary">get.vial.today</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 &nbsp;
 
@@ -22,5 +47,3 @@ title: VIA
 
 <small class="text-muted"><i class="fas fa-info-circle text-info"></i> Keyboards marked as *"Native"* don't need side-loading, The VIA application already supports it.<br><sup>**</sup> = there is more information on this.
 </small>
-
-Be sure to install the latest version of VIA.  Visit [caniusevia.com](https://www.caniusevia.com/) for the latest builds.
