@@ -7,7 +7,7 @@
   [
     {
       "c": "#aaaaaa",
-      "t": "#000000\n\n\n#ff0000",
+      "t": "#000000\n\n\n#006699",
       "fa": [
         0,
         0,
@@ -18,8 +18,8 @@
     "Esc\n~\n\nReset",
     "Tab\n\n\nRGB Tog",
     "F1\n\n\nRGB Mode",
-    "Calc\n\n\nPrintScr",
-    "Bkspc\n\n\nErase"
+    "Calc\n\n\nPrint Scr",
+    "Bkspc\n\n\nScroll Lock"
   ],
   [
     {
@@ -32,7 +32,7 @@
     },
     "NmLk",
     {
-      "t": "#000000\n\n\n#ff0000"
+      "t": "#000000\n\n\n#006699"
     },
     "/\n\n\nSpeed -",
     "*\n\n\nSpeed+",
@@ -56,7 +56,7 @@
     },
     "5",
     {
-      "t": "#000000\n\n\n#ff0000"
+      "t": "#000000\n\n\n#006699"
     },
     "6\n\n\n&#8680;"
   ],
@@ -72,16 +72,14 @@
   ],
   [
     {
-      "c": "#eecccc",
-      "t": "#ff0000",
+      "t": "#006699",
       "fa": [
         4
       ]
     },
     "Fn",
     {
-      "c": "#cccccc",
-      "t": "#000000\n\n\n#ff0000",
+      "t": "#000000\n\n\n#006699",
       "fa": [
         0,
         0,
