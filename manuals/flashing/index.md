@@ -8,7 +8,7 @@ has_video: true
 
 1.  **Learn how**
 
-    {%- include youtube-video.html video="VR53Wo9Z960" -%}
+    {%- include youtube-video.html video="fuBJbdCFF0Q" title="QMK Tutorial: QMK Toolbox (Flashing Firmware On Your Keyboard)" -%}
   
     &nbsp;
 
