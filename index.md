@@ -14,6 +14,8 @@ From here you will find:
 
 > <i class="fas fa-exclamation-triangle text-danger"></i> Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.  
 
+> <i class="fas fa-info-circle text-info"></i> Please note that some of the resources herein are kept for archival; not all products are current or available for purchase.
+
 ### Need interactive help?
   * [<svg class="fa fa-fw"><use xlink:href="#idobao-logo"/></svg> IDOBAO](https://idobao.net/pages/contact-us) official website "Contact Us" page
   * [<i class="fab fa-fw fa-discord"></i> Discord](https://discord.gg/asgKBYJUNA) *(New server)*
