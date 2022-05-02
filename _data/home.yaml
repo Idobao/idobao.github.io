@@ -9,5 +9,5 @@ list:
     url: /firmware/
   - title: VIA
     fa: code
-    text: "<code>json</code> side-load files for VIA, <i>if needed</i>."
+    text: "<code>json</code> sideload files for VIA, <i>if needed</i>."
     url: /via/

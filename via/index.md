@@ -48,5 +48,6 @@ Be sure to check back with their sites to make sure you have the latest builds.
 
 -----
 
-<small class="text-muted"><i class="fas fa-info-circle text-info"></i> Keyboards marked as *"Native"* don't need side-loading, The VIA application already supports it.<br><sup>1</sup> = there is more information on this.
+<small class="text-muted"><i class="fas fa-info-circle text-info"></i> The VIA application already supports keyboards marked as *"Native"*<br>
+<sup>1</sup> = there is more information on this.
 </small>

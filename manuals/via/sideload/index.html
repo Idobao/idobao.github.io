@@ -1,0 +1,72 @@
+---
+title: Sideloading VIA JSON Files
+layout: manual
+has_step_image: true
+---
+
+<h1>Sideloading VIA <code>json</code> Files</h1>
+
+<h3>What is a VIA <code>json</code> File?</h3>
+
+<p>Simply put a <code>json</code> file <i>("JSON" stands for <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation)</i> is a text file with data pertaining to the application it's targeted towards.  
+For VIA this <code>json</code> file has important information that identifies your keyboard through its USB identifier.
+
+<p>It then also contains a map of keys <i>(so that VIA can draw the layout of your keyboard)</i>.
+
+<p>VIA then uses this information to recover the "keycode" assigned to each key and also programs your keyboard with other "keycodes" as you change them.
+
+<h3>Why do I need to "sideload" this <code>json</code>?</h3>
+
+<p>VIA works with a very large list of keyboards - this list is always changing as more keyboards are added to its repertoire.
+Each time VIA starts; it queries this list on the inetrnet and downloads any additions as <code>json</code> files.
+
+<p>But the process of adding the <code>json</code> files is guarded against errors with a manual <i>("human")</i> process of "review and accept" by the creators of VIA <i>(known as "The VIA Project")</i>.
+There is no garentee of time given by The VIA Project, and contributors who submit thier keyboard definitions and key-maps as <code>json</code> files may need to wait a long time before a The VIA Project member has a chance to review it.
+
+<p>With this in mind, the creators of VIA allow one to manually add a keyboard definition file into VIA as needed.
+"Sideloading" is just that, the process of loading a keyboard definition <code>json</code> file not yet in The VIA Project repertoire, directly into VIA so that you, the user, can map your keys.
+
+<h3>Step 1</h3>
+
+<p>It's assumed that you have installed VIA.  If not, head on over to <a href="https://caniusevia.com"><i class="fas fa-globe"></i> caniusevia.com</a> to download and install it.
+
+<p>The first step is to download the appropraite <code>json</code> file for your model of keyboard.  For IDOBAO keyboards these can be found in the <a href="/via"><i class="fas fa-code"></i> VIA pages</a> on this site.
+
+<p>Save this file in a location that you will have easy access to, as you will need to "sideload" each time you use VIA. <i>(VIA was designed to not store anything itself, so the import process is done each time VIA is run.)</i>
+
+<h3>Step 2</h3>
+
+<div class="row">
+  <div class="col-6 mb-3">
+    <picture>
+      <img id="step-2" src="image-1.jpg" class="w-100 shadow rounded p-1 border" onclick="zoomPic(this);" role="button">
+    </picture>
+  </div>
+  <div class="col-6 mb-3">
+    <div class="row mb-3">
+      <div class="col-4"><img src="image-1.jpg" class="img-thumbnail w-100 shadow-sm" onclick="loadPic(this, 'step-2');" role="button"></div>
+      <div class="col-4"><img src="image-2.jpg" class="img-thumbnail w-100 shadow-sm" onclick="loadPic(this, 'step-2');" role="button"></div>
+    </div>
+    <ul>
+      <li class="mb-2"><i class="fab fa-2x fa-windows"></i> On Windows, select the "File" menu in the VIA app, and then "Import Keymap". Or, you can just use <tt>[Ctrl]</tt>+<tt>[O]</tt>.
+      <li class="mb-2"><i class="fab fa-2x fa-apple"></i> On MacOS, use the Mac menu bar <i>(not on the app window)</i> to select "VIA", and then "Import Keymap".
+        <li class="mb-2"><i>Other sites may suggest that you enable the "DESIGN" tab... <u>you don't need to do that</u>.  That function is only used by <code>json</code> file creators for testing.</i>
+    </ul>
+
+  </div>
+</div>
+
+<h3>Step 3</h3>
+
+<div class="row">
+  <div class="col-6 mb-3">
+    <picture>
+      <img id="step-2" src="image-3.jpg" class="w-100 shadow rounded p-1 border" onclick="zoomPic(this);" role="button">
+    </picture>
+  </div>
+  <div class="col-6 mb-3">
+    <ul>
+      <li class="mb-2"><b>That's it</b>.<br>If you're using the correct <code>json</code> file your keyboard should render and you can start using VIA to remap your keys and layers.
+    </ul>
+  </div>
+</div>

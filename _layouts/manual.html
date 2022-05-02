@@ -15,6 +15,41 @@
 {% include footer.html %}
 
 {% include foot.html %}
+
+{%- if page.has_step_image -%}
+
+  <!-- Steps Images functionality, similar to iFixit :) -->
+  <script>
+    function loadPic(img, targetId) {
+      document.getElementById(targetId).src = img.src;
+    }
+    function zoomPic(img) {
+      document.getElementById('modalImg').src = img.src;
+      var myModal = new bootstrap.Modal(document.getElementById('zoomModal'), {backdrop: true});
+      myModal.show();
+    }
+  </script>
+
+  <div class="modal" id="zoomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImg" src="/assets/img/loading.svg" class="w-100 img-fluid" data-bs-dismiss="modal" role="button">
+        </div>
+        <div class="modal-footer text-center">
+          <span class="mx-auto d-block">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close <i class="fas fa-window-close"></i></button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{%- endif -%}
+
 <script src="/assets/js/external-links.js"></script>
 </body>
 </html>
