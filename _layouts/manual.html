@@ -18,11 +18,14 @@
 
 {%- if page.has_step_image -%}
 
-  <!-- Steps Images functionality, similar to iFixit :) -->
+  
   <script>
+    // Steps Images functionality, similar to iFixit :) 
+
     function loadPic(img, targetId) {
       document.getElementById(targetId).src = img.src;
     }
+
     function zoomPic(img) {
       document.getElementById('modalImg').src = img.src;
       var myModal = new bootstrap.Modal(document.getElementById('zoomModal'), {backdrop: true});

@@ -189,6 +189,16 @@ hr {
   font-weight: 500;
 }
 
+.accordion {
+  h2 {
+    margin: inherit;
+  
+    button {
+      font-weight: 500;
+    }
+  }
+}
+
 .container {
   max-width: 960px;
 }

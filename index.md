@@ -10,7 +10,7 @@ Run by a community of enthusiasts, this site is designed to be a quick stop to r
 From here you will find:
   * [<i class="fas fa-fw fa-book"></i> Manuals](/manuals/)
   * [<i class="fas fa-fw fa-microchip"></i> Firmware](/firmware/)
-  * [<i class="fas fa-fw fa-code"></i> VIA](/via/) `json` files
+  * [<i class="fas fa-fw fa-code"></i> VIA](/via/) JSON files
 
 > <i class="fas fa-exclamation-triangle text-danger"></i> Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.  
 
