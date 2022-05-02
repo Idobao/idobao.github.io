@@ -12,6 +12,9 @@ menu:
     - title: Using VIA
       url: /manuals/via/
       fa: code
+    - title: Sideloading VIA <code>json</code>
+      url: /manuals/via/sideload/
+      fa: file-download
     - title: Keyboard LED's
       url: /manuals/leds/
       fa: sun
