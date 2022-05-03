@@ -1,0 +1,195 @@
+---
+Title: Install firmware on your keyboard
+layout: manual
+has_video: true
+has_step_image: true
+---
+
+<h1>Install firmware on your keyboard</h1>
+
+<div class="accordion mb-4 shadow-sm" id="theAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="x1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#y1" aria-expanded="true" aria-controls="y1">
+        QMK Tutorial: QMK Toolbox (Flashing Firmware On Your Keyboard) Video
+      </button>
+    </h2>
+    <div id="y1" class="accordion-collapse collapse show" aria-labelledby="x1" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+
+        {%- include youtube-video.html video="fuBJbdCFF0Q" title="QMK Tutorial: QMK Toolbox (Flashing Firmware On Your Keyboard)" -%}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ---------- -->
+<h2>Step 1<small class="text-muted">: Get your firmware</small></h2>
+
+<div class="row">
+  <div class="col-6 mb-3">
+    <picture>
+      <img id="step-1" src="image-1.jpg" class="w-100 shadow rounded p-1 border" onclick="zoomPic(this);" role="button">
+    </picture>
+  </div>
+  <div class="col-6 mb-3">
+    <div class="row mb-3">
+      <div class="col-4"><img src="image-1.jpg" onclick="loadPic(this, 'step-1');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+      <div class="col-4"><img src="image-2.jpg" onclick="loadPic(this, 'step-1');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+      <div class="col-4"><img src="image-3.jpg" onclick="loadPic(this, 'step-1');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+    </div>
+    <p>You can get your firmware from 4 different sources:</p>
+    <ol>
+      <li class="mb-2">Download from our Firmware pages.
+      <li class="mb-2">Compile from source code.
+      <li class="mb-2">Use the QMK Configurator.
+      <li class="mb-2"><s>Download from caniusevia.com.</s>
+    </ol>
+    Choose the method most appropriate for your needs.
+  </div>
+</div>
+
+
+
+<!-- ---------- -->
+<h2>Step 2<small class="text-muted">: Download QMK Toolbox</small></h2>
+
+<div class="row">
+  <div class="col-6 mb-3">
+    <picture>
+      <img id="step-2" src="image-4.jpg" class="w-100 shadow rounded p-1 border" onclick="zoomPic(this);" role="button">
+    </picture>
+  </div>
+  <div class="col-6 mb-3">
+    <div class="row mb-3">
+      <div class="col-4"><img src="image-4.jpg" onclick="loadPic(this, 'step-2');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+      <div class="col-4"><img src="image-5.jpg" onclick="loadPic(this, 'step-2');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+      <div class="col-4"><img src="image-6.jpg" onclick="loadPic(this, 'step-2');" role="button" class="img-thumbnail w-100 shadow-sm"></div>
+    </div>
+    <p>You can get your firmware from 4 different sources:</p>
+    <ul>
+      <li class="mb-2">Download from QMK's Toolbox repo.
+      <li class="mb-2">Select the Releases Tab
+      <li class="mb-2">Use the QMK Configurator.
+      <li class="mb-2">Download from caniusevia.com.
+    </ul>
+    Choose the method most appropriate for your needs.
+  </div>
+</div>
+
+
+<!-- ---------- -->
+<h2>Step 3<small class="text-muted">: Open QMK Toolbox</small></h2>
+
+<div class="row">
+  <div class="col-6 mb-3">
+    <picture>
+      <img id="step-3" src="image-7.jpg" class="w-100 shadow rounded p-1 border" onclick="zoomPic(this);" role="button">
+    </picture>
+  </div>
+  <div class="col-6 mb-3">
+    <ul>
+      <li class="mb-2">Download from QMK's Toolbox repo.
+      <li class="mb-2">Select the Releases Tab
+      <li class="mb-2">Use the QMK Configurator.
+      <li class="mb-2">Download from caniusevia.com.
+    </ul>
+    Choose the method most appropriate for your needs.
+  </div>
+</div>
+
+
+<!-- ---------- -->
+<h2 class="mb-0">Step 4<small class="text-muted">: Driver Installation</small></h2>
+<p class="mt-0 mb-3"><b class="">(Only on Windows)</b></p>
+
+
+<!-- ---------- -->
+<h2>Step 5<small class="text-muted">: Launch QMK Toolbox and Open the correct firmware file</small></h2>
+
+
+<!-- ---------- -->
+<h2>Step 6<small class="text-muted">: Select the MCU</small></h2>
+
+
+<!-- ---------- -->
+<h2>Step 7<small class="text-muted">: Reset your keyboard (Enter Bootloader Mode)</small></h2>
+
+
+<!-- ---------- -->
+<h2>Step 8<small class="text-muted">: Press Flash</small></h2>
+
+
+
+<!--
+xxxxxxxxxxxxxxxxxxxxxxxx
+<hr><hr><hr><hr><hr><hr>
+
+1.  **Learn how**
+
+    
+  
+    &nbsp;
+
+{:start="2"}
+2.  **Testing**
+
+    Test your PCB to make sure all the switches / Kaihl sockets work.
+    
+    *( <i class="fas fa-info"></i> Note the [Fn] key does not trigger on the keyboard tester but you'll be able to test that on the next step.)*
+
+    Use the online [Keyboard Tester](https://www.keyboardtester.com/tester.html)  
+
+    Test every key on your computer keyboard from within your browser, no software needed.
+
+3.  **Get your firmware file**
+
+    -   For the default, VIA enabled, firmware
+
+        - See our [<i class="fas fa-microchip"></i> Firmware](/firmware) pages for factory default firmware `.hex` files.
+
+        - You can also use the firmware `.hex` files from [caniusevia.com/docs/download_firmware](https://www.caniusevia.com/docs/download_firmware).
+
+        <i class="fas fa-exclamation"></i> Be sure to see our [<i class="fas fa-code"></i> Using VIA](/manuals/via/) page.
+
+    *&lt; or &gt;*
+
+    -   For custom firmare, configure your keymap in the online [QMK configurator](https://config.qmk.fm) tool.
+
+        <i class="fas fa-exclamation"></i> Be sure to see our [<i class="fas fa-microchip"></i> QMK Configurator](/manuals/qmk/) page.
+
+        1.  Select your keyboard from the top-most dropdown (e.g., `idobao/id80`). 
+
+        2.  Customize the keys you want to chnage and then save the kaymap `keymap.json` to your local device.  
+            This file is in case you want to upload it back to the Configurator site and edit keys later without having to rebuild your whole keymap.
+            
+            <i class="fas fa-exclamation"></i> Make sure you remember to set *(or keep)* a key mapped to `"Reset"` as this will be needed to ... reset.
+
+        3.  Press the `[Compile]` button in the upper right, and once that finishes press the `[Download firmware]` button to download the your `.hex` file that will be used by the QMK toolbox to flash.
+
+        <i class="fas fa-exclamation"></i> Note that VIA is <u class="text-danger">not</u> supported in these variants of the firmware.
+
+4.  **Flash your keyboard**
+
+    Make sure you've viewed the YouTube tutorial from **Step 1** *(then you should know what to do here <i class="fas fa-smile-beam text-success"></i>)*.
+
+    The driver installer mentioned in the video is here: [github.com/qmk/qmk_driver_installer/releases](https://github.com/qmk/qmk_driver_installer/releases)
+
+    The QMK Toolbox mentioned in the video is here: [github.com/qmk/qmk_toolbox/releases](https://github.com/qmk/qmk_toolbox/releases)
+
+    <i class="fas fa-info"></i> Note the default keybinding for `"reset"` is [Fn] + [Esc].
+
+---
+
+#### Summary
+
+<img src="image-1.jpg" width="640" height="auto" style="max-width: 100%;">
+
+<img src="image-2.jpg" style="max-width: 100%;">
+
+-->
+
+<hr>
+
+{% include see-also-manuals-general.html %}
