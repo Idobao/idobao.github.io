@@ -6,7 +6,7 @@ title: VIA
 
 There are currently two open-source applications that support QMK's VIA implementation. 
 
-*Both work, so it's a personal choice.  Both run on <i class="fab fa-2x fa-windows"></i> , <i class="fab fa-2x fa-apple"></i> or <i class="fab fa-2x fa-linux"></i>*
+*Both work, so it's a personal choice, and both run on <i class="fab fa-windows"></i> Windows, <i class="fab fa-apple"></i> macOS or <i class="fab fa-linux"></i> Linux.*
 
 Be sure to check back with their sites to make sure you have the latest builds.
 
