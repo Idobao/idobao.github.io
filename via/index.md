@@ -18,7 +18,7 @@ Be sure to check back with their sites to make sure you have the latest builds.
       <div class="card-body">
         <h5 class="card-title text-shadow">VIA</h5>
         <p class="card-text">The original app.</p>
-        <a href="https://www.caniusevia.com/" class="btn btn-success">caniusevia.com</a>
+        <a href="https://www.caniusevia.com/" class="btn btn-success"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a>
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@ Be sure to check back with their sites to make sure you have the latest builds.
       <div class="card-body">
         <h5 class="card-title text-shadow">Vial</h5>
         <p class="card-text">The newer app.</p>
-        <a href="https://get.vial.today/" class="btn btn-primary">get.vial.today</a>
+        <a href="https://get.vial.today/" class="btn btn-primary"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a>
       </div>
     </div>
   </div>

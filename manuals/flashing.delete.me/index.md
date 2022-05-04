@@ -29,7 +29,7 @@ has_video: true
 
         - See our [<i class="fas fa-microchip"></i> Firmware](/firmware) pages for factory default firmware `.hex` files.
 
-        - You can also use the firmware `.hex` files from [caniusevia.com/docs/download_firmware](https://www.caniusevia.com/docs/download_firmware).
+        - ~~You can also use the firmware `.hex` files from [caniusevia.com/docs/download_firmware](https://www.caniusevia.com/docs/download_firmware).~~
 
         <i class="fas fa-exclamation"></i> Be sure to see our [<i class="fas fa-code"></i> Using VIA](/manuals/via/) page.
 

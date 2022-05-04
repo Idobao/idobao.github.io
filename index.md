@@ -25,6 +25,6 @@ From here you will find:
   * [<i class="fab fa-fw fa-github"></i> QMK]({{ site.github_qmk_path }})'s Github repository with IDOBAO firmware source,
     * or their [<i class="fas fa-fw fa-globe"></i> home](https://qmk.fm) site, 
     * or their [<i class="fas fa-fw fa-book"></i> docs](https://docs.qmk.fm) site.
-  * [<i class="fas fa-fw fa-code"></i> VIA](https://www.caniusevia.com/)'s official site
-  * [<i class="fas fa-fw fa-vial"></i> Vial](https://get.vial.today/)'s official site
+  * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](https://www.caniusevia.com/)'s official site
+  * [<svg class="fa"><use xlink:href="#vial-logo"/></svg> Vial](https://get.vial.today/)'s official site
 
