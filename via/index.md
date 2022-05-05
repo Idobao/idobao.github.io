@@ -36,6 +36,7 @@ Be sure to check back with their sites to make sure you have the latest builds.
 
 &nbsp;
 
+{: .table .table-striped .border .align-middle }
 | Keyboard |     | VIA Support |
 |---------:|:---:|:------------|
 | Idobao Montex *(ID27)* | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id27.html) *(V1)*<br>[<i class="fas fa-code"></i> Montex VIA](id27.html) *(V2)* |

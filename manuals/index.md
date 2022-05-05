@@ -6,6 +6,7 @@ title: Manuals & Guides
 
 ## General
 
+{: .table .table-striped .border .align-middle }
 | How To                            |     | Guide |
 |----------------------------------:|:---:|:------|
 | Install firmware on your keyboard | <i class="fas fa-2x fa-bolt"></i> | [Flashing Guide](flashing/) |
@@ -17,6 +18,7 @@ title: Manuals & Guides
 
 ## Keyboards
 
+{: .table .table-striped .border .align-middle }
 | Keyboard                    |     | Manual |
 |----------------------------:|:---:|:-------|
 | Idobao Montex *(ID27)*      | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | [Montex QMK](id27/)<br>[Montex VIA](id27/via.html) |

@@ -14,6 +14,7 @@ b.r, b.g, b.b {
 
 # IDOBAO Keyboard Lighting
 
+{: .table .table-striped .border .align-middle }
 | Keyboard                   | Per-key                                                | Underglow                                              |
 |----------------------------|:------------------------------------------------------:|:------------------------------------------------------:|
 | ID67 V1/V2/Crystal/Bestype | <b class="r">R</b><b class="g">G</b><b class="b">B</b> | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |

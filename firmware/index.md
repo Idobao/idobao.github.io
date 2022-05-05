@@ -6,7 +6,7 @@ title: Firmware
 
 {% include firmware-header.html %}
 
-
+{: .table .table-striped .border .align-middle }
 | Keyboard                    |                                                                    | Firmware                 |
 |----------------------------:|:------------------------------------------------------------------:|:-------------------------|
 | Idobao Montex *(ID27)*      | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | [Montex](id27.html)      |
