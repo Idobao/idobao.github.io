@@ -10,7 +10,13 @@ layout: default
 
       <div class="feature col mb-3">
         <div class="feature-icon bg-theme bg-gradient">
-          <a href="{{ item.url }}"><i class="fas fa-{{ item.fa }}"></i></a>
+          <a href="{{ item.url }}">
+            {%- if item.svg == nil -%}
+              <i class="fas fa-{{ item.fa }}"></i>
+            {%- else -%}
+              <svg class="fa"><use xlink:href="#{{ item.svg }}"/></svg>
+            {%- endif -%}
+          </a>
         </div>
         <p class="h2">{{ item.title }}</p>
         <p>{{ item.text }}</p>

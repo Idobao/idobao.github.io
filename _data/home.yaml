@@ -8,6 +8,6 @@ list:
     text: "QMK compiled code. All variants are VIA enabled."
     url: /firmware/
   - title: VIA
-    fa: code
+    svg: via-logo
     text: "JSON sideload files for VIA, <i>if needed</i>."
     url: /via/
