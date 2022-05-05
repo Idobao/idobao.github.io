@@ -31,7 +31,7 @@ has_video: true
 
         - ~~You can also use the firmware `.hex` files from [caniusevia.com/docs/download_firmware](https://www.caniusevia.com/docs/download_firmware).~~
 
-        <i class="fas fa-exclamation"></i> Be sure to see our [<i class="fas fa-code"></i> Using VIA](/manuals/via/) page.
+        <i class="fas fa-exclamation"></i> Be sure to see our [<svg class="fa"><use xlink:href="#via-logo"/></svg> Using VIA](/manuals/via/) page.
 
     *&lt; or &gt;*
 

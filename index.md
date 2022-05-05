@@ -8,13 +8,15 @@ layout: home
 Run by a community of enthusiasts, this site is designed to be a quick stop to resources pertaining to the IDOBAO mechanical keyboard brand.
 
 From here you will find:
+
   * [<i class="fas fa-fw fa-book"></i> Manuals](/manuals/)
   * [<i class="fas fa-fw fa-microchip"></i> Firmware](/firmware/)
-  * [<i class="fas fa-fw fa-code"></i> VIA](/via/) JSON files
+  * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](/via/) JSON files
 
-> <i class="fas fa-exclamation-triangle text-danger"></i> Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.  
+  {: .list-unstyled style="padding-left:2rem" }
+  * <i class="fas fa-exclamation-triangle text-danger"></i> Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.  
+  * <i class="fas fa-info-circle text-info"></i> Please note that some of the resources herein are kept for archival; not all products are current or available for purchase.
 
-> <i class="fas fa-info-circle text-info"></i> Please note that some of the resources herein are kept for archival; not all products are current or available for purchase.
 
 ### Need interactive help?
   * [<svg class="fa fa-fw"><use xlink:href="#idobao-logo"/></svg> IDOBAO](https://idobao.net/pages/contact-us) official website "Contact Us" page

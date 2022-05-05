@@ -11,7 +11,7 @@ menu:
   - title: <i class="fas fa-microchip"></i>
     url: /firmware/
     hint: Firmware
-  - title: <i class="fas fa-code"></i>
+  - title: <svg class="fa"><use xlink:href="#via-logo"/></svg>
     url: /via/
     hint: VIA
   - title: <i class="fab fa-discord"></i>
