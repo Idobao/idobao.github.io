@@ -5,6 +5,8 @@ layout: manual
 
 # QMK VIA Manual
 
+{% include manual-warning.html %}
+
 If you have a keyboard drived by Atmega32u4 of QMK, you can edit the keyboard by VIA as following procedures
 
 1.  Download and install software: : `via-?.?.?-win.exe` on website:
