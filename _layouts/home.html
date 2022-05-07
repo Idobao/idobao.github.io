@@ -8,8 +8,8 @@ layout: default
 
     {%- for item in site.data.home.list -%}
 
-      <div class="feature col mb-3">
-        <div class="feature-icon bg-theme bg-gradient">
+      <div class="feature col mb-3 text-center">
+        <div class="feature-icon bg-theme bg-gradient shadow shadow-md">
           <a href="{{ item.url }}">
             {%- if item.svg == nil -%}
               <i class="fas fa-{{ item.fa }}"></i>
