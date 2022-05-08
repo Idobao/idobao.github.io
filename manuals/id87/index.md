@@ -15,7 +15,7 @@ layout: manual
 
     Choose the toolbox according to your system, Mac system choose `pkg` or `app` file, Windows choose `toolbox.exe` file.
 
-2.  Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.
+2.  ~~Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.~~
 
 3.  Change layout on [www.mtkeyboard.vip](http://www.mtkeyboard.vip/). Click ID87 ANSI or ISO option directly is ok. For different layout, just change the keycode you need and ignore keycode which is not in your layout is ok.
 
@@ -37,11 +37,11 @@ layout: manual
     Second, [Fn]+[Esc]
     Thrid, long press [Spc]+[B] while connecting PCB to computer (Need reset keycode on PCB in advance)
 
-7.  Open Zadig, click list all, choose **atmega32u4**
+7.  ~~Open Zadig, click list all, choose **atmega32u4**~~
 
-    Install the driver **libusb-win32** (v1.2.6.0).
+    ~~Install the driver **libusb-win32** (v1.2.6.0).~~
 
-    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;">
+    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;" class="strikeout">
 
 8.  Open Toolbox, click open button to choose the hex file Make sure the chipset is **atmega32u4**.
 

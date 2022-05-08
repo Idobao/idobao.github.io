@@ -15,7 +15,7 @@ layout: manual
 
     Choose the toolbox according to your system, Mac system choose `pkg` or `app` file, Windows choose `toolbox.exe` file.
 
-2.  Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.
+2.  ~~Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.~~
 
 3.  Change layout on [www.mtkeyboard.vip](http://www.mtkeyboard.vip/)
     
@@ -41,11 +41,11 @@ layout: manual
 
     -- Method 2, pull out USB from PC, press [Space] + [B[] together till inserting USB to PC.
 
-7.  Open Zadig, click list all,c hoose **atmega32u4**
+7.  ~~Open Zadig, click list all,c hoose **atmega32u4**~~
 
-    Install the driver **libusb-win32** (v1.2.6.0).
+    ~~Install the driver **libusb-win32** (v1.2.6.0).~~
 
-    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;">
+    <img src="image-4.jpg" width="640" height="auto" style="max-width: 100%;" class="strikeout">
 
 8.  Open Toolbox, click open button to choose the hex file you just download, click flash. Make sure the chipset is **atmega32u4**.
 

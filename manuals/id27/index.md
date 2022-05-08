@@ -16,7 +16,7 @@ layout: manual
 
     Choose the toolbox according to your system, Mac system choose `pkg` or `app` file, Windows choose `toolbox.exe` file.
 
-2.  Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.
+2.  ~~Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.~~
 
 3.  Change layout on [https://config.qmk.fm/#/montex/LAYOUT_numpad_6x5](https://config.qmk.fm/#/montex/LAYOUT_numpad_6x5)
 
@@ -28,9 +28,9 @@ layout: manual
 
     First,Press reset button on the back of PCB is ok. Second, [Fn] + [~]
 
-5.  Open Zadig, click list all, choose **atmega32u4**, install the driver **libusb-win32** (v1.2.6.0).
+5.  ~~Open Zadig, click list all, choose **atmega32u4**, install the driver **libusb-win32** (v1.2.6.0).~~
 
-    <img src="image-2.jpg" width="640" height="auto" style="max-width: 100%;">
+    <img src="image-2.jpg" width="640" height="auto" style="max-width: 100%;" class="strikeout">
 
 6.  Open Toolbox, click open button to choose the hex file.
 

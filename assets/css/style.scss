@@ -78,6 +78,11 @@ img[src*="loading.svg"] {
   display: block;
 }
 
+img.strikeout {
+  opacity: .5;
+  filter: brightness(50%);
+}
+
 body.manual {
   img:not([src*=".svg"]) {
     display: block;
