@@ -34,7 +34,12 @@ Be sure to check back with their sites to make sure you have the latest builds.
   </div>
 </div>
 
+
+{%- include enable_vial_rocks.html -%}
+
+{: .my-3}
 &nbsp;
+
 
 {: .table .table-striped .border .align-middle }
 | Keyboard |     | VIA Support |
