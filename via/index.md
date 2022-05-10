@@ -13,29 +13,29 @@ Be sure to check back with their sites to make sure you have the latest builds.
 
 <div class="row">
   <div class="col-md-6">
-    <div class="card text-center mb-3 border-2 rounded shadow">
+    <div class="card text-center mb-3 border rounded-3 shadow" style="border-color:#AD7070 !important">
       <img src="/assets/img/caniusevia.svg" width="300" height="88" class="card-img-top" style="background-color:#AD7070">
       <div class="card-body">
         <h5 class="card-title text-shadow">VIA</h5>
         <p class="card-text">The original app.</p>
-        <a href="https://www.caniusevia.com/" class="btn btn-success"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a>
+        <a href="https://www.caniusevia.com/" class="btn btn-success gradient shadow"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a>
       </div>
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card text-center mb-3 border-2 rounded shadow">
+    <div class="card text-center mb-3 border rounded-3 shadow" style="border-color:#023E8A !important">
       <img src="/assets/img/getvialtoday.svg" width="300" height="88" class="card-img-top" style="background-color:#023E8A">
       <div class="card-body">
         <h5 class="card-title text-shadow">Vial</h5>
         <p class="card-text">The newer app.</p>
-        <a href="https://get.vial.today/" class="btn btn-primary"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a>
+        <a href="https://get.vial.today/" class="btn btn-primary gradient shadow"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a>
       </div>
     </div>
   </div>
 </div>
 
 
-{%- include enable_vial_rocks.html -%}
+{%- include show-vial-rocks.html -%}
 
 {: .my-3}
 &nbsp;
