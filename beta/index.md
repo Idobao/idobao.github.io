@@ -6,7 +6,7 @@ title: Experimental & Beta Programme
 
 We're all about Continuous Improvement.  And the fist of the Twelve Principles of Agile Philosophy is: *"It is all about the customer and delivering value early."*
 
-With that in mind - herein we will publish our WIP ("Work In Progress") firmware.
+With that in mind - herein we will publish our WIP *("Work In Progress")* firmware.
 
 <div class="border shadow shadow-sm border-danger bg-danger bg-opacity-10 rounded-3 p-2 mb-4 text-opacity-75">
   <ul class="fa-ul mb-0 me-3">
@@ -26,7 +26,7 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
 | Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao.hex.zip) | [`montex-v2-via.json`]({{ site.github_raw_path }}/beta/montex-v2-via.json.zip) | *--* |
 | Abacus ID42 | [`idobao_id42_idobao_vial.hex`]({{ site.github_raw_path }}/beta/idobao_id42_idobao_vial.hex.zip) | [`id42-via.json`]({{ site.github_raw_path }}/beta/id42-via.json.zip) | [New Layers](id42-layer-readme.png) <sup>3<sup> |
 | Denwir ID63 | [`idobao_id63_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id63_idobao.hex.zip) | [`id63-via.json`]({{ site.github_raw_path }}/beta/id63-via.json.zip) | <sup>4</sup> |
-| ID67 V2 | [`idobao_id67_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id67_idobao.hex.zip) | [`id67-v2.via.json`]({{ site.github_raw_path }}/beta/id67-v2.via.json.zip) | <sup>4</sup> |
+| ID67 V2 | [`idobao_id67_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id67_idobao.hex.zip) | [`id67-v2-via.json`]({{ site.github_raw_path }}/beta/id67-v2-via.json.zip) | <sup>4</sup> |
 | ID80 V3 | [`idobao_id80_v3_ansi_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id80_v3_ansi_idobao.hex.zip) | [`id80-v3-via.json`]({{ site.github_raw_path }}/beta/id80-v3-via.json.zip) | <sup>4</sup> |
 | ID87 V2 TKL | [`idobao_id87_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id87_v2_idobao.hex.zip) | [`id87-v2-via.json`]({{ site.github_raw_path }}/beta/id87-v2-via.json.zip) | <sup>4</sup> |
 
