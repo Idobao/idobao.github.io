@@ -23,12 +23,12 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
 {: .table .table-striped .border .align-middle }
 | Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |
 |----------|---------------------------|---------------------------|-------|
-| Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`](idobao_montex_v2_idobao.hex) | [`montex-v2-via.json`](montex-v2-via.json) | *--* |
-| Abacus ID42 | [`idobao_id42_idobao_vial.hex`](idobao_id42_idobao_vial.hex) | [`id42-via.json`](id42-via.json) | [New Layers](id42-layer-readme.png) <sup>3<sup> |
-| Denwir ID63 | [`idobao_id63_idobao.hex`](idobao_id63_idobao.hex) | [`id63-via.json`](id63-via.json) | <sup>4</sup> |
-| ID67 V2 | [`idobao_id67_idobao.hex`](idobao_id67_idobao.hex) | [`id67-v2.via.json`](id67-v2.via.json) | <sup>4</sup> |
-| ID80 V3 | [`idobao_id80_v3_ansi_idobao.hex`](idobao_id80_v3_ansi_idobao.hex) | [`id80-v3-via.json`](id80-v3-via.json) | <sup>4</sup> |
-| ID87 V2 TKL | [`idobao_id87_v2_idobao.hex`](idobao_id87_v2_idobao.hex) | [`id87-v2-via.json`](id87-v2-via.json) | <sup>4</sup> |
+| Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao.hex.zip) | [`montex-v2-via.json`]({{ site.github_raw_path }}/beta/montex-v2-via.json.zip) | *--* |
+| Abacus ID42 | [`idobao_id42_idobao_vial.hex`]({{ site.github_raw_path }}/beta/idobao_id42_idobao_vial.hex.zip) | [`id42-via.json`]({{ site.github_raw_path }}/beta/id42-via.json.zip) | [New Layers](id42-layer-readme.png) <sup>3<sup> |
+| Denwir ID63 | [`idobao_id63_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id63_idobao.hex.zip) | [`id63-via.json`]({{ site.github_raw_path }}/beta/id63-via.json.zip) | <sup>4</sup> |
+| ID67 V2 | [`idobao_id67_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id67_idobao.hex.zip) | [`id67-v2.via.json`]({{ site.github_raw_path }}/beta/id67-v2.via.json.zip) | <sup>4</sup> |
+| ID80 V3 | [`idobao_id80_v3_ansi_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id80_v3_ansi_idobao.hex.zip) | [`id80-v3-via.json`]({{ site.github_raw_path }}/beta/id80-v3-via.json.zip) | <sup>4</sup> |
+| ID87 V2 TKL | [`idobao_id87_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id87_v2_idobao.hex.zip) | [`id87-v2-via.json`]({{ site.github_raw_path }}/beta/id87-v2-via.json.zip) | <sup>4</sup> |
 
 
 <small class="text-muted">
@@ -41,6 +41,8 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
 
   * {: .small } Caps Lock LED indicator. Caps Lock glows white regardless of RGB off or on, when the caps lock is activated.
   * {: .small } 4-state RGB Toggle.  States are: 1 = All ON, 2 = Underglow ON, per-key off, 3 = Underglow off, per-key ON, 4 = All off.
+  * {: .small } Full support for QMK RGB Matrix, including 40× LED animations
+  * {: .small } VIA's "LIGHTING" tab bug fixed in VIA JSON file
   {: .ms-3 .mt-0 .text-muted } 
 
 -----
