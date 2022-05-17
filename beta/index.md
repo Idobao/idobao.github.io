@@ -11,9 +11,9 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
 <div class="border shadow shadow-sm border-danger bg-danger bg-opacity-10 rounded-3 p-2 mb-4 text-opacity-75">
   <ul class="fa-ul mb-0 me-3">
   <li><span class="fa-li"><i class="fas fa-exclamation-triangle text-danger"></i></span>
-    Please note that sources on this page are <b><i>EXPERIMENTAL</i></b>, pre-release, and non-supported.  Use at your own risk.</li>
+    Please note that sources on this page are <b><i>EXPERIMENTAL</i></b>, pre-release, and non-supported.  USE AT YOUR OWN RISK.</li>
   <li class="mt-3"><span class="fa-li"><i class="fas fa-info-circle text-info"></i></span>
-    In you have issues please contact us at our <a href="https://discord.gg/asgKBYJUNA"><i class="fab fa-discord"></i> Discord Server</a>.
+    If you have issues please contact us at our <a href="https://discord.gg/asgKBYJUNA"><i class="fab fa-discord"></i> Discord Server</a>.
     <i>(But support is very limited.)</i></li>
   </ul>
 </div>
@@ -42,6 +42,8 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
   * {: .small } Caps Lock LED indicator. Caps Lock glows white regardless of RGB off or on, when the caps lock is activated.
   * {: .small } 4-state RGB Toggle.  States are: 1 = All ON, 2 = Underglow ON, per-key off, 3 = Underglow off, per-key ON, 4 = All off.
   {: .ms-3 .mt-0 .text-muted } 
+
+-----
 
 <span class="text-muted">
 <i class="fas fa-code"></i> - Source code for the firmware files can be found in our QMK fork, located at [<i class="fab fa-github-alt"></i> github.com/Idobao/qmk.qmk_firmware](https://github.com/Idobao/qmk.qmk_firmware).<br>
