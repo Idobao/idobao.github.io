@@ -1,5 +1,5 @@
 ---
-title: Experimental & Beta Programme
+title: Experimental and Beta Program
 ---
 
 # <i class="fas fa-baby"></i> Experimental & Beta Program
