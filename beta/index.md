@@ -1,8 +1,8 @@
 ---
-title: Experimental Beta Programme
+title: Experimental & Beta Programme
 ---
 
-# <i class="fas fa-baby"></i> Experimental Beta Program
+# <i class="fas fa-baby"></i> Experimental & Beta Program
 
 We're all about Continuous Improvement.  And the fist of the Twelve Principles of Agile Philosophy is: *"It is all about the customer and delivering value early."*
 
@@ -43,3 +43,7 @@ With that in mind - herein we will publish our WIP ("Work In Progress") firmware
   * {: .small } 4-state RGB Toggle.  States are: 1 = All ON, 2 = Underglow ON, per-key off, 3 = Underglow off, per-key ON, 4 = All off.
   {: .ms-3 .mt-0 .text-muted } 
 
+<span class="text-muted">
+<i class="fas fa-code"></i> - Source code for the firmware files can be found in our QMK fork, located at [<i class="fab fa-github-alt"></i> github.com/Idobao/qmk.qmk_firmware](https://github.com/Idobao/qmk.qmk_firmware).<br>
+Please ***do not*** contact us about how to compile the code, this is ***not*** supported - but if you already know that, and have [useful feedback](https://alearningaday.blog/2020/08/04/useful-feedback/), please feel free to contact us on our [<i class="fab fa-discord"></i> Discord Server](https://discord.gg/asgKBYJUNA).
+</span>
