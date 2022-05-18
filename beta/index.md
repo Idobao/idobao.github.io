@@ -11,7 +11,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 <div class="border shadow shadow-sm border-danger bg-danger bg-opacity-10 rounded-3 p-2 mb-4 text-opacity-75">
   <ul class="fa-ul mb-0 me-3">
   <li><span class="fa-li"><i class="fas fa-exclamation-triangle text-danger"></i></span>
-    Please note that resources on this page are <b><i>EXPERIMENTAL</i></b>, pre-release, and non-supported.  USE AT YOUR OWN RISK!</li>
+    Please note that resources on this page are <b class="text-danger"><i>EXPERIMENTAL</i></b>, pre-release, and non-supported.  USE AT YOUR OWN RISK!</li>
   <li class="mt-3"><span class="fa-li"><i class="fas fa-info-circle text-info"></i></span>
     If you have issues please contact us at our <a href="https://discord.gg/asgKBYJUNA"><i class="fab fa-discord"></i> Discord Server</a>.
     <i>(But support is very limited.)</i></li>
