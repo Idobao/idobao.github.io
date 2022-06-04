@@ -29,6 +29,8 @@
                     <li><a class="dropdown-item" href="{{ sub_item.url }}">
                       {%- if sub_item.fa != nil -%}
                         <i class="fas fa-fw fa-{{ sub_item.fa }}"></i> {{- " " -}}
+                      {%- elsif sub_item.svg != nil -%}
+                        <svg class="fa fa-fw"><use xlink:href="#{{ sub_item.svg }}"/></svg> {{- " " -}}
                       {%- endif -%}
                       {{- sub_item.title -}}</a> {{- -}}
                     </li>

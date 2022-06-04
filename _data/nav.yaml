@@ -11,10 +11,10 @@ menu:
       fa: microchip
     - title: Using VIA
       url: /manuals/via/
-      fa: code
+      svg: via-logo
     - title: Sideloading VIA JSON
       url: /manuals/via/sideload/
-      fa: file-download
+      fa: download fa-rotate-90
     - title: Keyboard LED's
       url: /manuals/leds/
       fa: sun

@@ -33,7 +33,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 
 <small class="text-muted">
 <sup>1</sup> = For instructions on how to flash firmware see our [<i class="fas fa-bolt"></i> Flashing Guide](/manuals/flashing/) page.  *(Skip step 1)*<br>
-<sup>2</sup> = For instruiction on how to side-load VIA JSON files see our [<i class="fas fa-download"></i> Sideloading VIA JSON](/manuals/via/sideload/) help page. *(Skip step 1)*<br>
+<sup>2</sup> = For instruiction on how to side-load VIA JSON files see our [<i class="fas fa-rotate-90 fa-download"></i> Sideloading VIA JSON](/manuals/via/sideload/) help page. *(Skip step 1)*<br>
 <sup>3</sup> = The Abacus features firmware from Vial. You do not need to use VIA or side-load VIA JSON for this to work in Vial.<br>
 &nbsp; &nbsp; &nbsp; Vial can be downloaded from [<svg class="fa"><use xlink:href="#vial-logo"></use></svg> get.vial.today](https://get.vial.today/)<br>
 <sup>4</sup> = This firmware includes new features:</small>

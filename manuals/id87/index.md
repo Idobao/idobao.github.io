@@ -15,7 +15,7 @@ layout: manual
 
     Choose the toolbox according to your system, Mac system choose `pkg` or `app` file, Windows choose `toolbox.exe` file.
 
-2.  ~~Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.~~
+2.  ~~Download [Zadig](https://zadig.akeo.ie/) or other driver updated software.~~ **[Update: The use of the Zadig tool is no longer recommended; the QMK-Toolbox will install all the necessary drivers.]**
 
 3.  Change layout on [www.mtkeyboard.vip](http://www.mtkeyboard.vip/). Click ID87 ANSI or ISO option directly is ok. For different layout, just change the keycode you need and ignore keycode which is not in your layout is ok.
 
