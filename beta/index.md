@@ -25,7 +25,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 {: .table .table-striped .border .align-middle }
 | Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
 |----------|---------------------------|---------------------------|-------|:---:|:---:|
-| Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao.hex.zip) | [`montex-v2-via.json`]({{ site.github_raw_path }}/beta/montex-v2-via.json.zip) | *--* | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id27-v2-id-keymap/keyboards/idobao/montex/v2) | [<i class="fas fa-image"></i>](../kle/idobao-id27-v2.png) |
+| Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao.hex.zip)<br>[`idobao_montex_v2_idobao_mac.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao_mac.hex.zip)<sup>5</sup> | [`montex-v2-via.json`]({{ site.github_raw_path }}/beta/montex-v2-via.json.zip) | *--* | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id27-v2-id-keymap/keyboards/idobao/montex/v2) | [<i class="fas fa-image"></i>](../kle/idobao-id27-v2.png) |
 | Abacus ID42 | [`idobao_id42_idobao_vial.hex`]({{ site.github_raw_path }}/beta/idobao_id42_idobao_vial.hex.zip) | [`id42-via.json`]({{ site.github_raw_path }}/beta/id42-via.json.zip) | [New Layers](id42-layer-readme.png) <sup>3<sup> | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id42-add-new/keyboards/idobao/id42/)/[<svg class="fa"><use xlink:href="#vial-logo"></use></svg>](https://github.com/Idobao/vial-kb.vial-qmk/tree/vr-id42/keyboards/idobao/id42/) | [<i class="fas fa-image"></i>](id42-layer-readme.png) |
 | Denwir 60 ID61 | [`idobao_id61_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id61_idobao.hex.zip) | [`id61-via.json`]({{ site.github_raw_path }}/beta/id61-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id61-new/keyboards/idobao/id61/) | [<i class="fas fa-image"></i>](../kle/idobao-id61.png) |
 | Denwir 60 ID63 | [`idobao_id63_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id63_idobao.hex.zip) | [`id63-via.json`]({{ site.github_raw_path }}/beta/id63-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id63-new/keyboards/idobao/id63/) | [<i class="fas fa-image"></i>](../kle/idobao-id63.png) |
@@ -47,6 +47,9 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
   * {: .small } Full support for QMK RGB Matrix, including 40× LED animations
   * {: .small } VIA's "LIGHTING" tab bug fixed in VIA JSON file
   {: .ms-3 .mt-0 .text-muted } 
+<small class="text-muted">
+<sup>5</sup> = Special build for macOS users.
+</small>
 
 -----
 
