@@ -35,6 +35,8 @@ menu:
       url: /firmware/id27.html
     - title: Abacus ID42
       url: /firmware/id42.html
+    - title: Denwir 60
+      url: /firmware/id60.html
     - title: ID75
       url: /firmware/id75.html
     - title: ID67
@@ -53,6 +55,8 @@ menu:
       url: /via/id27.html
     - title: Abacus ID42
       url: /via/id42.html
+    - title: Denwir 60
+      url: /via/id60.html
     - title: ID75
       url: /via/id75.html
     - title: ID67
