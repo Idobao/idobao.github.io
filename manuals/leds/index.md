@@ -26,7 +26,7 @@ layout: manual
 | ID80 V1/V2/Crystal/Bestype | <b class="w">White</b>                                 | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |
 | ID80 V3                    | <b class="r">R</b><b class="g">G</b><b class="b">B</b> | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |
 | ID87 V1                    | *--*                                                   | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |
-| ID80 V2                    | <b class="r">R</b><b class="g">G</b><b class="b">B</b> | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |
+| ID87 V2                    | <b class="r">R</b><b class="g">G</b><b class="b">B</b> | <b class="r">R</b><b class="g">G</b><b class="b">B</b> |
 
 ---
 
