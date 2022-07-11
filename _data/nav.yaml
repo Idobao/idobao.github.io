@@ -47,9 +47,9 @@ menu:
       url: /firmware/id87.html
     - title: ID96
       url: /firmware/id96.html
-  - title: VIA
+  - title: VIA & Vial
     url: /via
-    svg: via-logo
+    svg: vial-logo
     subfolderitems:
     - title: Montex
       url: /via/id27.html

@@ -1,8 +1,8 @@
 ---
-title: VIA
+title: VIA & Vial Support
 ---
 
-# VIA Support
+# VIA & Vial Support
 
 There are currently two open-source applications that support QMK's VIA implementation. 
 
@@ -14,28 +14,31 @@ Be sure to check back with their sites to make sure you have the latest builds.
 <div class="row">
   <div class="col-md-6">
     <div class="card text-center mb-3 border rounded-3 shadow" style="border-color:#AD7070 !important">
-      <img src="/assets/img/caniusevia.svg" width="300" height="88" class="card-img-top" style="background-color:#AD7070">
+      <img src="/assets/img/caniusevia.svg" width="300" height="88" class="card-img-top" style="background-color:#AD7070;color:white">
       <div class="card-body">
         <h5 class="card-title text-shadow">VIA</h5>
-        <p class="card-text">The original app.</p>
-        <a href="https://www.caniusevia.com/" class="btn btn-success gradient shadow"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a>
+        <p class="card-text">The older app.</p>
+        <span id="via_app_chrome" class="d-none"><a href="https://usevia.app/" class="btn shadow" style="background-color:#AD7070;color:white"><svg class="fa"><use xlink:href="#via-logo"/></svg> usevia.app</a></span>
+        <span id="via_app_alt"><a href="https://www.caniusevia.com/" class="btn shadow" style="background-color:#AD7070;color:white"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a></span>
+        <hr>
+        If you're looking for the original PC/Mac apps, you can get them at <a href="https://github.com/the-via/releases/releases/tag/v1.3.1">https://github.com/the-via/releases/releases/</a>.
       </div>
     </div>
   </div>
   <div class="col-md-6">
     <div class="card text-center mb-3 border rounded-3 shadow" style="border-color:#023E8A !important">
-      <img src="/assets/img/getvialtoday.svg" width="300" height="88" class="card-img-top" style="background-color:#023E8A">
+      <img src="/assets/img/getvialtoday.svg" width="300" height="88" class="card-img-top" style="background-color:#023E8A;color:white">
       <div class="card-body">
         <h5 class="card-title text-shadow">Vial</h5>
         <p class="card-text">The newer app.</p>
-        <a href="https://get.vial.today/" class="btn btn-primary gradient shadow"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a>
+        <span id="vial_app_chrome"><a href="https://vial.rocks/" class="btn shadow" style="background-color:#023E8A;color:white"><svg class="fa"><use xlink:href="#vial-logo"/></svg> vial.rocks</a></span>
+        <span id="vial_app_alt" class="d-none"><a href="https://get.vial.today/" class="btn shadow style="background-color:#023E8A;color:white"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a></span>
       </div>
     </div>
   </div>
 </div>
 
-
-{%- include show-vial-rocks.html -%}
+{%- include show-via-vial.html -%}
 
 {: .my-3}
 &nbsp;

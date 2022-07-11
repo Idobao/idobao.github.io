@@ -48,7 +48,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - bin/
   - "*.hex"
+  - "*.bin"
   - "*.json"
   - "__*"
 
