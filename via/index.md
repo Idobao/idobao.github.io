@@ -32,7 +32,7 @@ Be sure to check back with their sites to make sure you have the latest builds.
         <h5 class="card-title text-shadow">Vial</h5>
         <p class="card-text">The newer app.</p>
         <span id="vial_app_chrome" class="d-none"><a href="https://vial.rocks/" class="btn shadow" style="background-color:#023E8A;color:white"><svg class="fa"><use xlink:href="#vial-logo"/></svg> vial.rocks</a></span>
-        <span id="vial_app_alt"><a href="https://get.vial.today/" class="btn shadow style="background-color:#023E8A;color:white"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a></span>
+        <span id="vial_app_alt"><a href="https://get.vial.today/" class="btn shadow" style="background-color:#023E8A;color:white"><svg class="fa"><use xlink:href="#vial-logo"/></svg> get.vial.today</a></span>
       </div>
     </div>
   </div>
