@@ -21,7 +21,8 @@ Be sure to check back with their sites to make sure you have the latest builds.
         <span id="via_app_chrome" class="d-none"><a href="https://usevia.app/" class="btn shadow" style="background-color:#AD7070;color:white"><svg class="fa"><use xlink:href="#via-logo"/></svg> usevia.app</a></span>
         <span id="via_app_alt"><a href="https://www.caniusevia.com/" class="btn shadow" style="background-color:#AD7070;color:white"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a></span>
         <hr>
-        If you're looking for the original PC/Mac apps, you can get them at <a href="https://github.com/the-via/releases/releases/tag/v1.3.1">https://github.com/the-via/releases/releases/</a>.
+        <p>If you're looking for the original PC/Mac apps, you can get them at <a href="https://github.com/the-via/releases/releases/tag/v1.3.1">https://github.com/the-via/releases/releases/</a></p>
+        <p class="mb-0"><b>Please note</b> that any keyboards marked as requiring a sideload VIA file will not work with the online version.  For these you will need the on system Apps from the download link above.</p>
       </div>
     </div>
   </div>
