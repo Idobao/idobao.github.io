@@ -50,9 +50,6 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 | Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
 |----------|---------------------------|---------------------------|-------|:---:|:---:|
 | Denwir 60 ID63 | [`idobao_id63_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id63_idobao.hex.zip) | [`id63-via.json`]({{ site.github_raw_path }}/beta/id63-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao/id63/) | [<i class="fas fa-image"></i>](../kle/idobao-id63.png) |
-| ID67 V2 | [`idobao_id67_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id67_idobao.hex.zip) | [`id67-v2-via.json`]({{ site.github_raw_path }}/beta/id67-v2-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao/id67/v2/) | [<i class="fas fa-image"></i>](../kle/idobao-id67.png) |
-| ID80 V3 | [`idobao_id80_v3_ansi_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id80_v3_ansi_idobao.hex.zip) | [`id80-v3-via.json`]({{ site.github_raw_path }}/beta/id80-v3-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao/id80/v3/) |  [<i class="fas fa-image"></i>](../kle/idobao-id80.png) |
-| ID87 V2 TKL | [`idobao_id87_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id87_v2_idobao.hex.zip) | [`id87-v2-via.json`]({{ site.github_raw_path }}/beta/id87-v2-via.json.zip) | <sup>4</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao/id87/) | [<i class="fas fa-image"></i>](../kle/idobao-id87.png) |
 
 ---
 
