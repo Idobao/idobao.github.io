@@ -13,6 +13,7 @@ From here you will find:
   * [<i class="fas fa-book"></i> Manuals](/manuals/)
   * [<i class="fas fa-microchip"></i> Firmware](/firmware/)
   * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](/via/) JSON files
+  * [<i class="fas fa-question-circle"></i> FAQ](/faq/)
 
   {: .fa-ul }
   * <span class="fa-li"><i class="fas fa-fw fa-exclamation-triangle text-danger"></i></span> Be sure to read the [<i class="fas fa-question-circle"></i> About](about.html) page before you do anything here.

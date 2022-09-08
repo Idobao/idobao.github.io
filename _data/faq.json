@@ -1,0 +1,14 @@
+{
+  "faq": [
+    {
+      "section": "VIA",
+      "questions": [
+        {
+          "question": "VIA does not detect my keyboard",
+          "short": "You may need to <i>\"sideload\"</i> the VIA JSON file for your keyboard",
+          "long": "Not all keyboards are registered with VIA's keyboard database.  Check your keyboards VIA page <i>(on this site)</i> and see if you need to sideload a VIA JSON definition file."
+        }
+      ]
+    }
+  ]
+}

@@ -67,6 +67,10 @@ menu:
       url: /via/id87.html
     - title: ID96
       url: /via/id96.html
+  - title: FAQ
+    url: /faq
+    hint: Frequently Asked Questions
+    fa: question-circle
   - title: Beta Program
     url: /beta
     hint: Experimental Beta Program

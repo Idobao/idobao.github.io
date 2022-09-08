@@ -2,7 +2,7 @@ menu:
   - title: <i class="fas fa-home"></i>
     url: /
     hint: Home
-  - title: <i class="fas fa-question-circle"></i>
+  - title: <i class="fas fa-info-circle"></i>
     url: /about.html
     hint: About
   - title: <i class="fas fa-book"></i>
@@ -14,6 +14,9 @@ menu:
   - title: <svg class="fa"><use xlink:href="#via-logo"/></svg>
     url: /via/
     hint: VIA
+  - title: <i class="fas fa-question-circle"></i>
+    url: /faq/
+    hint: FAQ
   - title: <i class="fab fa-discord"></i>
     url: https://discord.gg/asgKBYJUNA
     hint: Discord
