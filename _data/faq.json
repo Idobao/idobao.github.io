@@ -1,6 +1,16 @@
 {
   "faq": [
     {
+      "section": "Keyboard",
+      "questions": [
+        {
+          "question": "What's the polling rate of my keyboard",
+          "short": "1KHz <i>(1,000Hz)</i>",
+          "long": "Polling rate is the rate at which key event data is sent to the host PC.  All keyboards compiled with QMK since September 2019 have the polling rate set at 1,000Hz by default, including all of IDOBAO's keyboards."
+        }
+      ]
+    },
+    {
       "section": "VIA",
       "questions": [
         {
