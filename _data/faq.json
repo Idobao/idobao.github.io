@@ -6,7 +6,17 @@
         {
           "question": "What's the polling rate of my keyboard",
           "short": "1KHz <i>(1,000Hz)</i>",
-          "long": "Polling rate is the rate at which key event data is sent to the host PC.  All keyboards compiled with QMK since September 2019 have the polling rate set at 1,000Hz by default, including all of IDOBAO's keyboards."
+          "long": "Polling rate is the rate at which key event data is sent to the host PC.  All keyboards compiled with <a href=\"https://qmk.fm/\" target=\"_blank\">QMK firmware</a> since September 2019 have the polling rate set at 1,000Hz by default, including all of IDOBAO's keyboards."
+        },
+        {
+          "question": "How do I change my keyboards LED's",
+          "short": "You can change either with VIA or Vial, or you can use your keyboards <code>RGB_MOD</code> & <code>RGB_TOG</code> keys.",
+          "long": "Each keyboard differs.  When you install VIA or Vial you should get a \"LIGHTING\" tab that you can use to change the LED modes of your keyboard. For keyboards with RGB, you can use VIA or Vial to explore your keymap to find the <code>RGB_MOD</code> <i>(this changes the animation mode)</i> & <code>RGB_TOG</code> <i>(this switches the animation on and off)</i> keys on your board. <i>(This is usually on a second or third layer.)</i>  For keyboards with Backlight look for the <code>BL_TOGG</code> <i>(this switches the backlight on or off)</i> key."
+        },
+        {
+          "question": "How do I change my keyboards <i>\"per-key\"</i>",
+          "short": "You can change either with VIA or Vial, or you can use your keyboards <code>RGB_MOD</code> & <code>RGB_TOG</code> keys.",
+          "long": "Many people mistake <i>\"RGB per-key\"</i> to mean that you can change the color of each key - this is not so.  <i>\"RGB per-key\"</i> means that each key has an RGB LED, as apposed to no LED or just a simple white one.  The firmware that we use is the open-source <a href=\"https://qmk.fm/\" target=\"_blank\">QMK firmware</a>, and it features the ability to run over 42 RGB animations.  These you can switch to <i>(or off)</i> using the VIA or Vial \"LIGHTING\" tab.  See: <i>How do I change my keyboards LED's?</i> above."
         }
       ]
     },
@@ -16,7 +26,7 @@
         {
           "question": "VIA does not detect my keyboard",
           "short": "You may need to <i>\"sideload\"</i> the VIA JSON file for your keyboard",
-          "long": "Not all keyboards are registered with VIA's keyboard database.  Check your keyboards VIA page <i>(on this site)</i> and see if you need to sideload a VIA JSON definition file."
+          "long": "Not all keyboards are registered with VIA's keyboard database.  Check your keyboards <a href=\"/via/\">VIA page</a> and see if you need to sideload a VIA JSON definition file."
         }
       ]
     }

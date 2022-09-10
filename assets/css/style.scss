@@ -317,3 +317,35 @@ hr {
   }
 
 }
+
+.collapsable {
+
+  .more {
+    display: none;
+  }
+
+  .less {
+    display: inline;
+  }
+
+  &.collapsed {
+
+    .more {
+      display: inline;
+    }
+
+    .less {
+      display: none;
+    }
+
+  }
+}
+
+@media print {
+  .collapsable {
+    .more,
+    .less {
+      display: none !important;
+    }
+  }
+}

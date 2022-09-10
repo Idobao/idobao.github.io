@@ -9,23 +9,23 @@ title: FAQ
   {%- for section in site.data.faq.faq -%}
     <div class="section">
       <h3>{{ section.section }}</h3>
-      <div class="list-group">
+      <ul class="list-group">
         {%- for question in section.questions -%}
           {% assign i = i | plus:1 %}
-          <a href="#item{{ i }}" class="list-group-item list-group-item-action" data-bs-toggle="collapse">
+          <li class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">{{ question.question }}</h5>
+              <h5 class="mb-1">{{ question.question }}?</h5>
             </div>  
             <p class="mb-1">{{ question.short }}</p>
             {%- if question.long and question.long != '' -%}
-              <small><u>Learn more</u></small>         
-              <div class="collapse mt-3" id="item{{ i }}">
+              <a href="#item{{ i }}" data-bs-toggle="collapse" class="collapsable collapsed"><span class="more">Learn more</span><span class="less">(Close)</span></a>         
+              <div class="collapse my-3" id="item{{ i }}">
                 {{ question.long }}
               </div>
             {% endif -%}
-          </a>
+          </li>
         {% endfor -%}
-      </div>
+      </ul>
     </div>
   {% endfor -%}
 </div>
