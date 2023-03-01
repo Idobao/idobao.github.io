@@ -41,6 +41,8 @@ menu:
       url: /firmware/id75.html
     - title: ID67
       url: /firmware/id67.html
+    - title: ID67 Plus
+      url: /firmware/id67plus.html
     - title: ID80
       url: /firmware/id80.html
     - title: ID87 TKL
@@ -61,6 +63,8 @@ menu:
       url: /via/id75.html
     - title: ID67
       url: /via/id67.html
+    - title: ID67 Plus
+      url: /via/id67plus.html
     - title: ID80
       url: /via/id80.html
     - title: ID87 TKL
