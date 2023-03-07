@@ -12,7 +12,7 @@ From here you will find:
 
   * [<i class="fas fa-book"></i> Manuals](/manuals/)
   * [<i class="fas fa-microchip"></i> Firmware](/firmware/)
-  * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](/via/) JSON files
+  * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](/via/) <tt>json</tt> files, works with Vial and ReMap
   * [<i class="fas fa-question-circle"></i> FAQ](/faq/)
 
   {: .fa-ul }
@@ -31,4 +31,5 @@ From here you will find:
     * or their [<i class="fas fa-fw fa-book"></i> docs](https://docs.qmk.fm) site.
   * [<svg class="fa"><use xlink:href="#via-logo"/></svg> VIA](https://www.caniusevia.com/)'s official site
   * [<svg class="fa"><use xlink:href="#vial-logo"/></svg> Vial](https://get.vial.today/)'s official site
+  * [<svg class="fa"><use xlink:href="#remap-logo"/></svg> ReMap](https://remap-keys.app/) official site
 

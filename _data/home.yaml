@@ -7,7 +7,7 @@ list:
     fa: microchip
     text: "QMK compiled code. All variants are VIA enabled."
     url: /firmware/
-  - title: VIA & Vial
+  - title: VIA, Vial & ReMap
     svg: vial-logo
-    text: "JSON sideload files for VIA or Vial, <i>if needed</i>."
+    text: "JSON sideload files for VIA, Vial or ReMap, <i>if needed</i>."
     url: /via/

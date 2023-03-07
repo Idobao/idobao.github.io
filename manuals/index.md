@@ -12,7 +12,7 @@ title: Manuals & Guides
 | Install firmware on your keyboard | <i class="fas fa-2x fa-bolt"></i> | [Flashing Guide](flashing/) |
 | Build firmware from QMK           | <i class="fas fa-2x fa-microchip"></i> | [QMK Configurator](qmk/) |
 | Use VIA to define your keymap     | <svg class="fa fa-2x"><use xlink:href="#via-logo"/></svg> | [Using VIA](via/) |
-| Sideload VIA JSON files           | <i class="fas fa-2x fa-rotate-90 fa-download"></i> | [Sideloading VIA JSON](via/sideload/) |
+| Sideload VIA <tt>json</tt> files           | <i class="fas fa-2x fa-rotate-90 fa-download"></i> | [Sideloading VIA <tt>json</tt>](via/sideload/) |
 | Understand your keyboard's <abbr title="Light-emitting diode">LED</abbr>'s  | <i class="fas fa-2x fa-sun"></i> | [Keyboard LED's](leds/) |
 
 

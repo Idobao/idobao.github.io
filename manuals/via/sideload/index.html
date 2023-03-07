@@ -4,20 +4,20 @@ layout: manual
 has_step_image: true
 ---
 
-<h1>Sideloading VIA JSON Files</h1>
+<h1>Sideloading VIA <tt>json</tt> Files</h1>
 
 <div class="accordion mb-4 shadow-sm d-print-none" id="theAccordion">
   <div class="accordion-item">
     <h2 class="accordion-header" id="x1">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#y1" aria-expanded="false" aria-controls="y1">
-        What is a VIA JSON File?
+        What is a VIA <tt>json</tt> File?
       </button>
     </h2>
     <div id="y1" class="accordion-collapse collapse" aria-labelledby="x1" data-bs-parent="#theAccordion">
       <div class="accordion-body">
 
-        <p>Simply put a JSON file <i>("JSON" stands for <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation)</i> is a text file with data pertaining to the application it's targeted towards.  
-        For VIA this JSON file has important information that identifies your keyboard through its USB identifier.
+        <p>Simply put a <tt>json</tt> file <i>("<tt>json</tt>" stands for <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation)</i> is a text file with data pertaining to the application it's targeted towards.  
+        For VIA this <tt>json</tt> file has important information that identifies your keyboard through its USB identifier.
 
         <p>It then also contains a map of keys <i>(so that VIA can draw the layout of your keyboard)</i>.
 
@@ -29,20 +29,20 @@ has_step_image: true
   <div class="accordion-item">
     <h2 class="accordion-header" id="x2">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#y2" aria-expanded="false" aria-controls="y2">
-        Why do I need to "sideload" this JSON?
+        Why do I need to "sideload" this <tt>json</tt>?
       </button>
     </h2>
     <div id="y2" class="accordion-collapse collapse" aria-labelledby="x1" data-bs-parent="#theAccordion">
       <div class="accordion-body">
 
         <p>VIA works with a very large list of keyboards - this list is always changing as more keyboards are added to its repertoire.
-        Each time VIA starts; it queries this list on the internet and downloads any additions as JSON files.
+        Each time VIA starts; it queries this list on the internet and downloads any additions as <tt>json</tt> files.
 
-        <p>But the process of adding the JSON files is guarded against errors with a manual <i>("human")</i> process of "review and accept" by the creators of VIA <i>(known as "The VIA Project")</i>.
-        There is no guarantee of time given by The VIA Project, and contributors who submit their keyboard definitions and key-maps as JSON files may need to wait a long time before a The VIA Project member has a chance to review it.
+        <p>But the process of adding the <tt>json</tt> files is guarded against errors with a manual <i>("human")</i> process of "review and accept" by the creators of VIA <i>(known as "The VIA Project")</i>.
+        There is no guarantee of time given by The VIA Project, and contributors who submit their keyboard definitions and key-maps as <tt>json</tt> files may need to wait a long time before a The VIA Project member has a chance to review it.
 
         <p>With this in mind, the creators of VIA allow one to manually add a keyboard definition file into VIA as needed.
-        "Sideloading" is just that, the process of loading a keyboard definition JSON file not yet in The VIA Project repertoire, directly into VIA so that you, the user, can map your keys.
+        "Sideloading" is just that, the process of loading a keyboard definition <tt>json</tt> file not yet in The VIA Project repertoire, directly into VIA so that you, the user, can map your keys.
 
       </div>
     </div>
@@ -50,7 +50,7 @@ has_step_image: true
 </div>
 
 <!-- ---------- -->
-<h2><a name="step-1">Step 1<small class="text-muted">: Download the correct JSON file</small></a></h2>
+<h2><a name="step-1">Step 1<small class="text-muted">: Download the correct <tt>json</tt> file</small></a></h2>
 
 <div class="row">
   <div class="col-sm-6 mb-3">
@@ -64,7 +64,7 @@ has_step_image: true
     </div>
     <ul>
       <li class="mb-2">It is assumed that you have installed VIA.  If not, head on over to <a href="https://caniusevia.com"><svg class="fa"><use xlink:href="#via-logo"/></svg> caniusevia.com</a> to download and install it.
-      <li class="mb-2">The first step is to download the appropriate JSON file for your model of keyboard.  For IDOBAO keyboards these can be found in the <a href="/via"><svg class="fa"><use xlink:href="#via-logo"/></svg> VIA pages</a> on this site.
+      <li class="mb-2">The first step is to download the appropriate <tt>json</tt> file for your model of keyboard.  For IDOBAO keyboards these can be found in the <a href="/via"><svg class="fa"><use xlink:href="#via-logo"/></svg> VIA pages</a> on this site.
       <li class="mb-2">Save this file in a location that you will have easy access to, as you will need to "sideload" each time you use VIA. <i>(VIA was designed to not store anything itself, so the import process is done each time VIA is run.)</i>
     </ul>
   </div>
@@ -96,7 +96,7 @@ has_step_image: true
 
 
 <!-- ---------- -->
-<h2><a name="step-3">Step 3<small class="text-muted">: Import the JSON file in the Design tab</small></a></h2>
+<h2><a name="step-3">Step 3<small class="text-muted">: Import the <tt>json</tt> file in the Design tab</small></a></h2>
 
 <div class="row">
   <div class="col-sm-6 mb-3">
@@ -111,7 +111,7 @@ has_step_image: true
     </div>
     <ul>
       <li class="mb-2">Select the "<b>Design</b>" tab.
-      <li class="mb-2">Use the "<b>Load</b>" button, and select the JSON file you just downloaded.
+      <li class="mb-2">Use the "<b>Load</b>" button, and select the <tt>json</tt> file you just downloaded.
     </ul>
   </div>
 </div>
@@ -128,7 +128,7 @@ has_step_image: true
   </div>
   <div class="col-sm-6 mb-3">
     <ul>
-      <li class="mb-2"><b>That's it</b>.<br>If you're using the correct JSON file your keyboard should render and you can start using VIA to remap your keys and layers.
+      <li class="mb-2"><b>That's it</b>.<br>If you're using the correct <tt>json</tt> file your keyboard should render and you can start using VIA to remap your keys and layers.
     </ul>
   </div>
 </div>

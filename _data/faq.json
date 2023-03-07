@@ -25,8 +25,8 @@
       "questions": [
         {
           "question": "VIA does not detect my keyboard",
-          "short": "You may need to <i>\"sideload\"</i> the VIA JSON file for your keyboard",
-          "long": "Not all keyboards are registered with VIA's keyboard database.  Check your keyboards <a href=\"/via/\">VIA page</a> and see if you need to sideload a VIA JSON definition file."
+          "short": "You may need to <i>\"sideload\"</i> the VIA <tt>json</tt> file for your keyboard",
+          "long": "Not all keyboards are registered with VIA's keyboard database.  Check your keyboards <a href=\"/via/\">VIA page</a> and see if you need to sideload a VIA <tt>json</tt> definition file."
         }
       ]
     }

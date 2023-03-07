@@ -12,7 +12,7 @@ menu:
     - title: Using VIA
       url: /manuals/via/
       svg: via-logo
-    - title: Sideloading VIA JSON
+    - title: Sideloading VIA json
       url: /manuals/via/sideload/
       fa: download fa-rotate-90
     - title: Keyboard LED's
@@ -47,7 +47,7 @@ menu:
       url: /firmware/id87.html
     - title: ID96
       url: /firmware/id96.html
-  - title: VIA & Vial
+  - title: VIA/Vial/ReMap
     url: /via
     svg: vial-logo
     subfolderitems:

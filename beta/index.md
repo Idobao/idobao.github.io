@@ -25,7 +25,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 *(These in development in the IDOBAO repository.)*
 
 {: .table .table-striped .border .align-middle }
-| Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
+| Keyboard | Firmware file<sup>1</sup> | VIA <tt>json</tt> file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
 |-----|-----|-----|-----|:---:|:---:|
 | Montex V2 *(>= Apr 2022)* | [`idobao_montex_v2_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao.hex.zip)<br>[`idobao_montex_v2_idobao_mac.hex`]({{ site.github_raw_path }}/beta/idobao_montex_v2_idobao_mac.hex.zip)<sup>4</sup> | [`montex-v2-via.json`]({{ site.github_raw_path }}/beta/montex-v2-via.json.zip) | *--* | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id27-v2-id-keymap/keyboards/idobao/montex/v2) | [<i class="fas fa-image"></i>](../kle/idobao-id27-v2.png) |
 | Denwir 60 ID61 | [`idobao_id61_idobao.hex`]({{ site.github_raw_path }}/beta/idobao_id61_idobao.hex.zip) | [`id61-via.json`]({{ site.github_raw_path }}/beta/id61-via.json.zip) | <sup>3</sup> | [<i class="fab fa-github-alt"></i>](https://github.com/Idobao/qmk.qmk_firmware/tree/vr-id61-new/keyboards/idobao/id61/) | [<i class="fas fa-image"></i>](../kle/idobao-id61.png) |
@@ -37,7 +37,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 *(These are in the QMK `develop` repository, awaiting the next quarterly merge.)*
 
 {: .table .table-striped .border .align-middle }
-| Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
+| Keyboard | Firmware file<sup>1</sup> | VIA <tt>json</tt> file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
 |-----|-----|-----|-----|:---:|:---:|
 -->
 
@@ -47,7 +47,7 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 *(These are now incorporated into QMK.)*
 
 {: .table .table-striped .border .align-middle }
-| Keyboard | Firmware file<sup>1</sup> | VIA JSON file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
+| Keyboard | Firmware file<sup>1</sup> | VIA <tt>json</tt> file<sup>2</sup> | Notes |  <i class="fas fa-code"></i> | <i class="fas fa-keyboard"></i> |
 |-----|-----|-----|-----|:---:|:---:|
 -->
 
@@ -55,14 +55,14 @@ With that in mind - herein we will publish our WIP *("Work In Progress")* firmwa
 
 <small class="text-muted">
 <sup>1</sup> = For instructions on how to flash firmware see our [<i class="fas fa-bolt"></i> Flashing Guide](/manuals/flashing/) page.  *(Skip step 1)*<br>
-<sup>2</sup> = For instructions on how to side-load VIA JSON files see our [<i class="fas fa-rotate-90 fa-download"></i> Sideloading VIA JSON](/manuals/via/sideload/) help page. *(Skip step 1)*<br>
+<sup>2</sup> = For instructions on how to side-load VIA <tt>json</tt> files see our [<i class="fas fa-rotate-90 fa-download"></i> Sideloading VIA <tt>json</tt>](/manuals/via/sideload/) help page. *(Skip step 1)*<br>
 <sup>3</sup> = This firmware includes new features:</small>
 {: .mb-0}  
 
   * {: .small } Caps Lock LED indicator. Caps Lock glows white regardless of RGB off or on, when the caps lock is activated.
   * {: .small } 4-state RGB Toggle.  States are: 1 = All ON, 2 = Underglow ON, per-key off, 3 = Underglow off, per-key ON, 4 = All off.
   * {: .small } Full support for QMK RGB Matrix, including 40× LED animations
-  * {: .small } VIA's "LIGHTING" tab bug fixed in VIA JSON file
+  * {: .small } VIA's "LIGHTING" tab bug fixed in VIA <tt>json</tt> file
   {: .ms-3 .mt-0 .text-muted } 
 <small class="text-muted">
 <sup>4</sup> = Special build for macOS users.
