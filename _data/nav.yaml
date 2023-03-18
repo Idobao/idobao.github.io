@@ -71,10 +71,6 @@ menu:
     url: /faq
     hint: Frequently Asked Questions
     fa: question-circle
-  - title: Beta Program
-    url: /beta
-    hint: Experimental Beta Program
-    fa: baby
   - title: IDOBAO.net
     url: https://idobao.net
     hint: IDOBAO Official Site

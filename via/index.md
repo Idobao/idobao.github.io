@@ -54,9 +54,11 @@ Be sure to check back with their sites to make sure you have the latest builds.
 </div>
 
 <div class="border shadow shadow border-danger bg-danger bg-opacity-10 rounded-3 p-2 mb-4 text-opacity-75">
-  <ul class="fa-ul mb-0 me-3">
+  <ul class="fa-ul mb-0 me-3 py-2">
   <li><span class="fa-li"><i class="fas fa-exclamation-triangle text-danger"></i></span>
-    <b>Warning:</b> Please note that recent changes to VIA & QMK has created new internal key code structures/values, that do not match current/as-sold firmware.<br>This means that firmware built before November 26, 2022 will cause issues with the new VIA app.<br>&nbsp;<br>There is nothing we can do about this since the authors of VIA did not account for backward compatibility.  If your Keyboard does not work in the new VIA, please try one of the other two key mapping tools listed above.
+    <b class="text-danger">Warning:</b> Please note that recent changes (Feb 2023) to VIA & QMK has created new internal key code structures/values, that do not match current/as-sold firmware. There are also issues with keyboards built with the RGB Matrix library.
+    <br><br><b>This means that firmware built before November 26, 2022 will cause issues with the new VIA app.</b>
+    <br><br>There is nothing we can do about this since the authors of VIA did not account for backward compatibility.  If your Keyboard does not work in the new VIA, please try one of the other two key mapping tools listed above.
     
     </li>
   </ul>
@@ -71,16 +73,16 @@ Be sure to check back with their sites to make sure you have the latest builds.
 {: .table .table-striped .border .align-middle }
 | Keyboard |     | VIA Support |
 |---------:|:---:|:------------|
-| Idobao Montex *(ID27)* | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id27.html) *(All)* |
-| Idobao Abacus ID42 | <img src="../assets/img/idobao-id42.png" height="34" width="auto"> | [<i class="fas fa-rotate-90 fa-download"></i> Abacus ID42 VIA](id42.html) |
-| Idobao ID75 *(Ortholinear)* | <img src="../assets/img/idobao-id75.png" height="40" width="auto"> | *(Native)*<sup>1</sup> [<i class="fas fa-comment-dots" title="more..."></i> more&hellip;](id75.html) |
-| Idobao ID67 | <img src="../assets/img/idobao-id67.png" height="40" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id67.html) *(V1)*<br>& [<i class="fas fa-rotate-90 fa-download"></i> ID67 VIA](id67.html) *(V2)* |
-| Idobao ID80 | <img src="../assets/img/idobao-id80.png" height="52" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id80.html) *(V1 & V2)*<!-- <br>& [<i class="fas fa-rotate-90 fa-download"></i> ID80 VIA](id80.html) *(V3)* --> |
-| Idobao ID87 *(TKL)* | <img src="../assets/img/idobao-id87.png" height="50" width="auto"> | *(Native)*<sup>1</sup> [<i class="fas fa-comment-dots" title="more..."></i> more&hellip;](id87.html) |
+| Idobao Montex *(ID27)* | <img src="../assets/img/idobao-id27.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id27.html) |
+| Idobao Abacus ID42 | <img src="../assets/img/idobao-id42.png" height="34" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id42.html) |
+| Idobao ID75 *(Ortholinear)* | <img src="../assets/img/idobao-id75.png" height="40" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id75.html) |
+| Idobao ID67 | <img src="../assets/img/idobao-id67.png" height="40" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id67.html) |
+| Idobao ID80 | <img src="../assets/img/idobao-id80.png" height="52" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id80.html) |
+| Idobao ID87 *(TKL)* | <img src="../assets/img/idobao-id87.png" height="50" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id87.html) |
 | Idobao ID96 | <img src="../assets/img/idobao-id96.png" height="48" width="auto"> | *(Native)* [<i class="fas fa-info-circle"></i>](id96.html) |
 
 -----
 
-<small class="text-muted"><i class="fas fa-info-circle text-info"></i> The VIA application already supports keyboards marked as *"Native"*<br>
-<sup>1</sup> = there is more information on this.
+<small class="text-muted">
+<i class="fas fa-info-circle"></i> = The VIA application already supports keyboards marked as *"Native"*, there is no need to sideload a `json` file
 </small>

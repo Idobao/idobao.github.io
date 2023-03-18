@@ -26,8 +26,9 @@ copyright: 2022
 
 # github_raw_path: https://raw.githubusercontent.com/Idobao/idobao.github.io/master
 github_raw_path: https://cdn.jsdelivr.net/gh/Idobao/idobao.github.io
+github_release_path: https://cdn.jsdelivr.net/gh/Idobao/idobao.github.io/release/firmware
 github_qmk_path: https://github.com/qmk/qmk_firmware/tree/master/keyboards/idobao
-github_via_path: https://github.com/the-via/keyboards/blob/master/src
+github_via_path: https://github.com/the-via/keyboards/blob/master/v3
 
 # Build settings
 markdown: kramdown
@@ -49,10 +50,12 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - bin/
+  - release/
   - "*.hex"
   - "*.bin"
   - "*.json"
   - "__*"
+  
 
 # Defaults
 defaults:
